@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-This personal website has just launched today! It will be constantly updated in the following weeks. :vial:
+This personal website is under active development. Content will be updated frequently—please check back soon for research highlights and new projects. 🧪💻
