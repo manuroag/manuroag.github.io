@@ -18,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an M.Sc. student in Statistical Physics at Cinvestav, Mexico City, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve complex problems in biophysics and protein design. My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Statistical Physics, with a focus on developing computational tools for biological applications.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In my Master’s thesis (expected defense: October 2025), I designed and implemented neural networks to significantly improve the accuracy of Circular Dichroism (CD) spectra predictions for proteins using the [KCD method](https://kcd.cinvestav.mx/). This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools—a skill I aim to further develop in my PhD.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein design, or related fields.
+
+For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
