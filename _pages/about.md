@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.Sc. Student at <a href='https://cinvestav.mx/'>Cinvestav</a>, Physics Department. 
 
 profile:
   align: right
