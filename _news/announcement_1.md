@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: "Conference Announcement"
+date: 2025-10-02 08:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+See you at the [*Physics and Life*](https://www.ijm.fr/event/physics-life-days-2025/) annual meeting at the Institut Jacques Monod in Paris! 😃🧪🥼
