@@ -6,6 +6,6 @@ inline: True
 related_posts: false
 ---
 
-I’ll be presenting a poster at the [*13th Symposium on Structural Proteomics*](https://ssp2025.squarespace.com/) at the Human Technopole in Milan, Italy. 📃📊🧬
+I’ll be presenting a poster at the [_**13th Symposium on Structural Proteomics**_](https://ssp2025.squarespace.com/) at the Human Technopole in Milan, Italy. 📃📊🧬
 Looking forward to sharing ideas and connecting with researchers in the field of protein structure and mass spectrometry!
 
