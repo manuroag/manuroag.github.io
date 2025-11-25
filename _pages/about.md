@@ -6,7 +6,8 @@ subtitle: M.Sc. Student. <a href='https://cinvestav.mx/'>Cinvestav</a>, Physics 
 
 profile:
   align: right
-  image: 20241230_163648.jpg
+  image: IMG-20251013-WA0009.jpg
+  #image: 20241230_163648.jpg
   image_circular: false # crops the image to make it circular
   #more_info: >
  #   <p>555 your office number</p>
