@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thesis defense"
-date: 2025-12-15 08:00:00-0400
+date: 2025-12-16 08:00:00-0400
 inline: True
 related_posts: false
 ---
