@@ -21,15 +21,24 @@ social: true # includes social icons at the bottom of the page
 
 **I am an M.Sc. student in Statistical Physics at Cinvestav, Mexico City**, deeply passionate about **bridging theoretical physics with cutting-edge computational methods** to solve complex problems in **biophysics and protein science**. My research sits at the exciting intersection of **Artificial Intelligence**, **Machine Learning**, and **Statistical Physics**, with a focus on **developing computational tools for biological applications**.
 
-<div class="row justify-content-center text-center mt-4 mb-4">
-  <div class="col-md-4">
-    <img src="/assets/img/physics-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 150px;">
+<div class="row justify-content-center text-center mt-4 mb-4 align-items-center">
+  <div class="col-auto">
+    <img src="/assets/img/physics-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 100px;">
+    <p class="mt-2 small"><strong>Physics</strong></p>
   </div>
-  <div class="col-md-4">
-    <img src="/assets/img/ai-icon.png" alt="Artificial Intelligence" class="img-fluid rounded" style="max-width: 150px;">
+  <div class="col-auto">
+    <h4 class="text-muted mx-3 my-0">+</h4>
   </div>
-  <div class="col-md-4">
-    <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 150px;">
+  <div class="col-auto">
+    <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 100px;">
+    <p class="mt-2 small"><strong>AI</strong></p>
+  </div>
+  <div class="col-auto">
+    <h4 class="text-muted mx-3 my-0">+</h4>
+  </div>
+  <div class="col-auto">
+    <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 100px;">
+    <p class="mt-2 small"><strong>Biology</strong></p>
   </div>
 </div>
 
