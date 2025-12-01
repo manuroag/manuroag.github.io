@@ -7,17 +7,15 @@
     "url": "https://manuroag.github.io/",
     "summary": "I combine AI and Physics to address complex challenges within the biological sciences.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Mexico City",
+      "countryCode": "MX",
+      "region": "Mexico"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Bluesky",
+        "username": "manuroag",
+        "url": "https://bsky.app/profile/manuroag.bsky.social"
       }
     ]
   },
