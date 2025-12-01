@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: José Manuel Robles-Aguilar
+    #- name: Date of Birth
+    #  value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: Spanish (Native), English (C1), French (B1), German(A1)
 
 - title: Education
   type: time_table
