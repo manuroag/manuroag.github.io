@@ -19,7 +19,7 @@
   contents:
     - title: MSc in Physics
       institution: Cinvestav, Department of Physics, Mexico City, MX
-      year: 09/2023-12/2025
+      year: 2023 - 2025
       description:
         - title: "Thesis: AI-driven Prediction of Circular Dichroism Spectra of Proteins"
           contents:
@@ -28,7 +28,7 @@
         - "GPA: 3.6"
     - title: BS in Physics and Mathematics
       institution: Intituto Politécnico Nacional (IPN)
-      year: 09/2017-07/2022
+      year: 2017 - 2022
       description:
         - "GPA: 3.4"
 
@@ -37,32 +37,40 @@
   contents:
     - title: MSc Thesis
       institution: Cinvestav, Mexico City, MX
-      year: 11/2024-11/2025
+      year: 2024 - 2025
       description:
         - Developed and implemented deep Bayesian Neural Networks to the KCD method
         - This approach resulted in a 40% improvement in average prediction accuracy compared to the original method
     
     - title: AI+Science Summer School
       institution: University of Chicago John W. Boyer Center, Paris, FR
-      year: 07/2025
+      year: 2025
 
     - title: Fluorescence Microscopy project
       institution: Soft Matter Laboratory, Cinvestav, Mexico City, MX
-      year: 05/2024-07/2025
+      year: 2025
       description:
         - I prepared fluorescent nanoparticle samples, captured imaging data across varying focal heights, and performed image processing to generate a robust calibration curve. This calibration is now the foundational standard for the laboratory’s ongoing research.
         - I applied this protocol to characterize the Brownian motion of nanoparticles within lipid vesicles.
 
     - title: Statistical Physics project
       institution: Cinvestav, Mexico City, MX
-      year: 01/2024-02/2024
+      year: 2024
       description:
         - I measured the radius of gyration for alpha-helix and beta-sheet proteins
         - This work provided my entry point into protein science and bioinformatics, grounding me in the structural analysis of biomolecules.
 
     - title: Durham-QMUL-Leeds International Research School
       institution: Durham University, Durham, UK
-      year: 01/2022
+      year: 2022
+      description:
+        - I collaborated with an interdisciplinary team to develop and successfully defend a research proposal addressing Sustainable Development Goals (SDG)
+
+    - title: Teaching Assistanship
+      institution: Center for Computing Research (CIC), Mexico City, MX
+      year: 2022
+      description:
+        - "PI: Dr. Sun GuoHua, current leader of the Quantum Computing Laboratory at CIC"
 
 
 - title: Open Source Projects
