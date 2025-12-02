@@ -18,12 +18,14 @@
   type: time_table
   contents:
     - title: MSc in Physics
-      institution: Cinvestav, Department of Physics
+      institution: Cinvestav, Department of Physics, Mexico City, MX
       year: 2025
       description:
-        - "Advisor: Dr. Mauricio Demetrio Carbajal-Tinoco"
-        - "Co-advisor: Dr. Damián Jacinto-Méndez"
-        - "GPA: 3.6"
+        - title: "Thesis: AI-driven Prediction of Circular Dichroism Spectra of Proteins"
+          contents:
+          - "Advisor: Dr. Mauricio Demetrio Carbajal-Tinoco"
+          - "Co-advisor: Dr. Damián Jacinto-Méndez"
+        - title: "GPA: 3.6"
     - title: BS in Physics and Mathematics
       institution: Intituto Politécnico Nacional (IPN)
       year: 2022
