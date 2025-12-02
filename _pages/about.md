@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. in Statistical Physics. <a href='https://cinvestav.mx/'>Cinvestav</a>, Mexico City, MX. 
+subtitle: M.Sc. in Statistical Physics. <a href='https://cinvestav.mx/'>Cinvestav</a>, Mexico City, Mexico. 
 
 profile:
   align: right
