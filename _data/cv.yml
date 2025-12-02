@@ -22,9 +22,8 @@
       year: 2023 - 2025
       description:
         - title: "Thesis: AI-driven Prediction of Circular Dichroism Spectra of Proteins"
-        description:
-          - "Advisor: Dr. Mauricio Demetrio Carbajal-Tinoco"
-          - "Coadvisor: Dr. Damián Jacinto-Méndez"
+        - "Advisor: Dr. Mauricio Demetrio Carbajal-Tinoco"
+        - "Coadvisor: Dr. Damián Jacinto-Méndez"
         - "GPA: 3.6"
     - title: BS in Physics and Mathematics
       institution: Intituto Politécnico Nacional (IPN), Mexico City, MX
