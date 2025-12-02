@@ -1,15 +1,6 @@
 {
   "basics": {
-    "name": "José Manuel Robles Aguilar",
-    "label": "MSc student",
-    "image": "",
-    "email": "jose.robles@cinvestav.mx",
-    "url": "https://manuroag.github.io/",
-    "summary": "I combine AI and Physics to address complex challenges within the biological sciences.",
-    "location": {
-      "city": "Mexico City",
-      "countryCode": "MX",
-      "region": "Mexico"
+    
     },
     "profiles": [
       {
