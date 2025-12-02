@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: José Manuel Robles-Aguilar
+      value: José Manuel Robles Aguilar
     - name: 
       value: MSc Student
     - name: Research Area
@@ -72,11 +72,10 @@
       description:
         - "Advisor: Dr. Sun GuoHua, current leader of the Quantum Computing Laboratory at CIC"
 
-
 - title: Poster Presentations
   type: time_table
   contents:
-    - title: 13th Symposium of Structural Proteomics
+    - title: 13th Symposium on Structural Proteomics
       institution: Human Technopole, Milan, IT
       year: 2025
 
@@ -84,17 +83,25 @@
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
 
-- title: Academic Interests
+- title: Skills and Knowledge
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computational
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Deep Learning (PyTorch)
+        - Machine Learning (SKlearn)
+        - Bash Scripting
+        - Proteomics
+        - Algorithm Design and Analysis
+        - Quantum Computing
+        - Data Analysis
+
+    - title: Physics
       items:
-        - Description 1.
-        - Description 2.
+        - Statistical Physics
+        - Non-equilibrium Statistical Physics
+        - Biophysics
+        - Experimental (Fluorescence Microscopy, XRD, AFM, EM, UV-Vis, Raman)
 
 - title: Other Interests
   type: list
