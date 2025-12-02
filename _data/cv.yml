@@ -3,14 +3,14 @@
   contents:
     - name: Full Name
       value: José Manuel Robles-Aguilar
-    - name: Position
-      value: MSc Student
-    -name: Area
-      value: Statistical Physics, Computational Biophysics, AI
+    - name: 
+      value: MSc Student in Statistical Physics
     - name: Institution
       value: Cinvestav, Department of Physics, Mexico City
     - name: email
       value: jose.robles@cinvestav.mx
+    - name: LinkedIn
+      value: www.linkedin.com/in/manuroag
     - name: Languages
       value: Spanish (Native), English (C1), French (B1), German (A1)
 
