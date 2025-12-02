@@ -4,33 +4,31 @@
     - name: Full Name
       value: José Manuel Robles-Aguilar
     - name: 
-      value: MSc Student
+      value: MSc Student in Statistical Physics
+    - name: Institution
+      value: Cinvestav, Department of Physics, Mexico City
     - name: email
       value: jose.robles@cinvestav.mx
-    #- name: Date of Birth
-    #  value: 14th March 1879
+    - name: LinkedIn
+      value: www.linkedin.com/in/manuroag
     - name: Languages
       value: Spanish (Native), English (C1), French (B1), German(A1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc in Physics
+      institution: Cinvestav, Department of Physics
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Dr. Mauricio Demetrio Carbajal-Tinoco"
+        - "Co-advisor: Dr. Damián Jacinto-Méndez"
+        - "GPA: 3.6"
+    - title: BS in Physics and Mathematics
+      institution: Intituto Politécnico Nacional (IPN)
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.4"
 
 - title: Experience
   type: time_table
