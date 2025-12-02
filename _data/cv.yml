@@ -3,6 +3,10 @@
   contents:
     - name: Full Name
       value: José Manuel Robles-Aguilar
+    - name: 
+      value: MSc Student
+    - name: email
+      value: jose.robles@cinvestav.mx
     #- name: Date of Birth
     #  value: 14th March 1879
     - name: Languages
