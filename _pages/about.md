@@ -42,8 +42,8 @@ social: true # includes social icons at the bottom of the page
   </div>
 </div>
 
-My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.mx/)'s predictive capabilities for protein Circular Dichroism (CD) spectra. **By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy** compared to the original model. This work not only strengthened my expertise in **PyTorch**, **data-driven modeling**, and **scientific computing** but also reinforced my ability to translate **theoretical concepts into practical tools**, a skill I aim to further develop in my PhD.
+My Master's thesis focused on enhancing the **[KCD method](https://kcd.cinvestav.mx/)**'s predictive capabilities for protein Circular Dichroism (CD) spectra. **By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy** compared to the original model. This work not only strengthened my expertise in **PyTorch**, **data-driven modeling**, and **scientific computing** but also reinforced my ability to translate **theoretical concepts into practical tools**, a skill I aim to further develop in my PhD.
 
 Beyond my thesis, I actively seek opportunities to expand my **computational and interdisciplinary research skills**, including participation in **summer schools and specialized courses**. I thrive in collaborative environments and am eager to contribute my **background in statistical physics and machine learning** to a research group tackling challenges in **computational biophysics, AI-driven protein design, or related fields**.
 
-For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
+For more details on my projects and academic journey, please see my **[CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf)** or reach out via **[email](mailto:jose.robles@cinvestav.mx)**. I’d love to discuss how my skills align with your lab’s research!
