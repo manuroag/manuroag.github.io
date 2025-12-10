@@ -1,6 +1,8 @@
 - title: General Information
   type: map
   contents:
+    - image:
+      value: /assets/img/biology-icon.png
     - name: Full Name
       value: José Manuel Robles Aguilar
     - name: Position
