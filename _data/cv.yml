@@ -1,11 +1,9 @@
-- title: General Information
+- title: Profile
   type: map
   contents:
-    - image:
-      value: /assets/img/biology-icon.png
     - name: Full Name
       value: José Manuel Robles Aguilar
-    - name: Position
+    - name: Title
       value: MSc Student
     - name: Institution
       value: Cinvestav, Department of Physics, Mexico City
