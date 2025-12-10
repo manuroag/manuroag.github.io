@@ -32,7 +32,7 @@
       description:
         - "GPA: 3.4"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: MSc Thesis
