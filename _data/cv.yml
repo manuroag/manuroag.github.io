@@ -8,7 +8,7 @@
     - name: Institution
       value: Cinvestav, Department of Physics, Mexico City
     - name: email
-      value: jose.robles@cinvestav.mx
+      value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
     - name: Research Areas
       value: Statistical Physics, Computational Biophysics, Artificial Intelligence
     - name: Languages
