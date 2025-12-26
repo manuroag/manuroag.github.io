@@ -45,8 +45,10 @@ social: true # includes social icons at the bottom of the page
 My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.mx/)'s predictive capabilities for protein Circular Dichroism (CD) spectra. **By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy** compared to the original model. This work not only strengthened my expertise in **PyTorch**, **data-driven modeling**, and **scientific computing** but also reinforced my ability to translate **theoretical concepts into practical tools**, a skill I aim to further develop in my PhD.
 
 <figure class="text-center">
-  <img src="/assets/img/KCD_AI.png" class="shadow-sm img-fluid rounded" width="80%">
-  <figcaption><strong>KCD-AI workflow:</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.</figcaption>
+  <img src="/assets/img/KCD_AI.png" class="img-fluid" style="max-width: 85px;">
+  <figcaption>
+    <strong>KCD-AI workflow:</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
+  </figcaption>
 </figure>
 
 Beyond my thesis, I actively seek opportunities to expand my **computational and interdisciplinary research skills**, including participation in **summer schools and specialized courses**. I thrive in collaborative environments and am eager to contribute my **background in statistical physics and machine learning** to a research group tackling challenges in **computational biophysics, AI-driven protein design, or related fields**.
