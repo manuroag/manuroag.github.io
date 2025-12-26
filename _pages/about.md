@@ -46,7 +46,7 @@ My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.m
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
-       class="img-fluid rounded w-100 w-md-70" 
+       class="img-fluid rounded w-100 w-sm-70" 
        alt="KCD AI Model">
   <figcaption>
     <strong>Fig. 1.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
