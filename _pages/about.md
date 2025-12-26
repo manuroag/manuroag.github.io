@@ -29,14 +29,14 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
     <p class="mt-1 small"><strong>Physics</strong></p>
   </div>
   <div class="col-auto">
-    <h5 class="text-muted mx-2 my-0">+</h4>
+    <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
     <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
     <p class="mt-1 small"><strong>AI</strong></p>
   </div>
   <div class="col-auto">
-    <h5 class="text-muted mx-2 my-0">+</h4>
+    <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
     <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
@@ -48,7 +48,7 @@ My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.m
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
-       class="rounded w-80 w-sm-70" 
+       class="img-fluid rounded w-80 w-sm-70" 
        alt="KCD AI Model">
   <figcaption>
     <strong>Fig. 1.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
