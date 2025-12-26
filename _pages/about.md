@@ -19,7 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an M.Sc. in Statistical Physics, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science. My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Statistical Physics, with a focus on developing computational tools for biological applications.
+I am an M.Sc. in Statistical Physics, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
+
+My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Statistical Physics, with a focus on developing computational tools for biological applications.
 
 <div class="row justify-content-center text-center mt-4 mb-4 align-items-center">
   <div class="col-auto">
@@ -42,7 +44,7 @@ I am an M.Sc. in Statistical Physics, deeply passionate about bridging theoretic
   </div>
 </div>
 
-My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.mx/)'s predictive capabilities for protein Circular Dichroism (CD) spectra (Fig. 1). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
+My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.mx/)'s predictive capabilities for protein Circular Dichroism (CD) spectra (Fig. 1). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -52,6 +54,8 @@ My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.m
     <strong>Fig. 1.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
   </figcaption>
 </figure>
+
+This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
 Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein design, or related fields.
 
