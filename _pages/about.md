@@ -29,14 +29,14 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
     <p class="mt-1 small"><strong>Physics</strong></p>
   </div>
   <div class="col-auto">
-    <h5 class="text-muted mx-2 my-0">+</h5>
+    <h5 class="text-muted mx-2 my-0">+</h4>
   </div>
   <div class="col-auto">
     <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
     <p class="mt-1 small"><strong>AI</strong></p>
   </div>
   <div class="col-auto">
-    <h5 class="text-muted mx-2 my-0">+</h5>
+    <h5 class="text-muted mx-2 my-0">+</h4>
   </div>
   <div class="col-auto">
     <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
