@@ -8,7 +8,7 @@ profile:
   align: right
   image: IMG-20251013-WA0009.jpg
   #image: 20241230_163648.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   #more_info: >
  #   <p>555 your office number</p>
  #   <p>123 your address street</p>
@@ -29,14 +29,14 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
     <p class="mt-1 small"><strong>Physics</strong></p>
   </div>
   <div class="col-auto">
-    <h5 class="text-muted mx-2 my-0">+</h5>
+    <h5 class="text-muted mx-2 my-0">+</h4>
   </div>
   <div class="col-auto">
     <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
     <p class="mt-1 small"><strong>AI</strong></p>
   </div>
   <div class="col-auto">
-    <h5 class="text-muted mx-2 my-0">+</h5>
+    <h5 class="text-muted mx-2 my-0">+</h4>
   </div>
   <div class="col-auto">
     <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
@@ -44,18 +44,16 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
   </div>
 </div>
 
-My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.mx/)'s predictive capabilities for protein Circular Dichroism (CD) spectra (Fig. 1). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
+My Master's thesis focused on enhancing the [KCD method](https://kcd.cinvestav.mx/)'s predictive capabilities for protein Circular Dichroism (CD) spectra (Fig. 1). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
-       class="img-fluid rounded w-80 w-sm-70" 
+       class="rounded w-80 w-sm-70" 
        alt="KCD AI Model">
   <figcaption>
     <strong>Fig. 1.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
   </figcaption>
 </figure>
-
-This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
 Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein design, or related fields.
 
