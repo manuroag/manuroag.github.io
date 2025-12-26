@@ -6,7 +6,7 @@ subtitle: M.Sc. in Statistical Physics. <a href='https://cinvestav.mx/'>Cinvesta
 
 profile:
   align: right
-  image: IMG-20251013-WA0009(1).jpg
+  image: IMG-20251013-WA0009.jpg
   #image: 20241230_163648.jpg
   image_circular: true # crops the image to make it circular
   #more_info: >
@@ -25,22 +25,22 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
 
 <div class="row justify-content-center text-center mt-3 mb-3 align-items-center">
   <div class="col-auto">
-    <img src="/assets/img/physics-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 60px;">
-    <p class="mt-1 small mb-0"><strong>Physics</strong></p>
+    <img src="/assets/img/physics-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 70px;">
+    <p class="mt-1 small"><strong>Physics</strong></p>
   </div>
   <div class="col-auto">
     <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 60px;">
-    <p class="mt-1 small mb-0"><strong>AI</strong></p>
+    <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
+    <p class="mt-1 small"><strong>AI</strong></p>
   </div>
   <div class="col-auto">
     <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 60px;">
-    <p class="mt-1 small mb-0"><strong>Biology</strong></p>
+    <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
+    <p class="mt-1 small"><strong>Biology</strong></p>
   </div>
 </div>
 
