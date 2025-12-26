@@ -6,9 +6,9 @@ subtitle: M.Sc. in Statistical Physics. <a href='https://cinvestav.mx/'>Cinvesta
 
 profile:
   align: right
-  image: IMG-20251013-WA0009.jpg
+  image: IMG-20251013-WA0009(1).jpg
   #image: 20241230_163648.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   #more_info: >
  #   <p>555 your office number</p>
  #   <p>123 your address street</p>
