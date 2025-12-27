@@ -44,7 +44,7 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
   </div>
 </div>
 
-My Master's thesis focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
+My Master's thesis focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra. By designing and training deep Bayesian Neural Networks (BNNs)  (**Fig. 1**), I achieved a 40% improvement in prediction accuracy compared to the original model  (**Fig. 2**). This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -55,6 +55,17 @@ My Master's thesis focused on enhancing the [KCD method](https://doi.org/10.1002
     <strong>Fig. 1.</strong> KCD-AI workflow: Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
   </figcaption>
 </figure>
+
+<figure class="text-center">
+  <img src="/assets/img/KCDAIvsKCD.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 600px;" 
+       alt="KCD AI vs KCD">
+  <figcaption>
+    <strong>Fig. 2.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions, plotted as a function of protein α-helix content (%). The results for the KCD-AI model are shown as blue circles (mean) with their corresponding standard deviations (error bars). The results for the original KCD method are shown as sienna stars. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15 ± 0.14) and KCD (sienna, 0.25 ± 0.21). The y-axis is on a logarithmic scale.
+  </figcaption>
+</figure>
+
 
 Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein design, or related fields.
 
