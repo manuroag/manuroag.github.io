@@ -61,10 +61,10 @@ Beyond my thesis, I actively seek opportunities to expand my computational and i
 <figure class="text-center">
   <img src="/assets/img/Interests.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 680px;" 
+       style="width: 100%; max-width: 700px;" 
        alt="Molecular Dynamics and AI-driven Drug Discovery">
   <figcaption>
-    Credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Martina Markova</a>.
+    Credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Graphwise</a>.
   </figcaption>
 </figure>
 
