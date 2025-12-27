@@ -56,6 +56,16 @@ My Master's thesis focused on enhancing the [KCD method](https://doi.org/10.1002
   </figcaption>
 </figure>
 
-Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein design, or related fields.
+Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein and drug discovery, or related fields.
+
+<figure class="text-center">
+  <img src="/assets/img/Interests.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 680px;" 
+       alt="Molecular Dynamics and Drug Discovery">
+  <figcaption>
+    Credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Martina Markova</a>.
+  </figcaption>
+</figure>
 
 For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
