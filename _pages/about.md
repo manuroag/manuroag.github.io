@@ -59,7 +59,7 @@ My Master's thesis focused on enhancing the [KCD method](https://doi.org/10.1002
 <figure class="text-center">
   <img src="/assets/img/KCDAIvsKCD.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 600px;" 
+       style="width: 100%; max-width: 500px;" 
        alt="KCD AI vs KCD">
   <figcaption>
     <strong>Fig. 2.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions, plotted as a function of protein α-helix content (%). The results for the KCD-AI model are shown as blue circles (mean) with their corresponding standard deviations (error bars). The results for the original KCD method are shown as sienna stars. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15 ± 0.14) and KCD (sienna, 0.25 ± 0.21). The y-axis is on a logarithmic scale.
