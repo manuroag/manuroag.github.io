@@ -10,7 +10,7 @@
     - name: email
       value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
     - name: Research Areas
-      value: Statistical Physics, Computational Biophysics, Artificial Intelligence
+      value: Statistical Physics, Artificial Intelligence, Computational Biophysics, Protein Science
     - name: Languages
       value: Spanish (Native), English (C1), French (B1), German (A1)
 
