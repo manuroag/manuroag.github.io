@@ -95,23 +95,29 @@
     - title: Computational
       items:
         - Deep Learning (PyTorch)
-        - Machine Learning (SKlearn)
+        - Machine Learning (SciKit-learn)
+        - GenAI (Prompt Engineering)
+        - Python
+        - Matlab
         - Bash Scripting
         - Proteomics
         - Algorithm Design and Analysis
         - Quantum Computing
         - Data Analysis
+        - Microsoft Office
+        - Excel and PowerBI
 
-    - title: Physics
+    - title: Physics and Mathematics
       items:
         - Statistical Physics
         - Non-equilibrium Statistical Physics
         - Biophysics
         - Experimental (Fluorescence Microscopy, XRD, AFM, EM, UV-Vis, Raman)
+        - Statistics
 
-    - title: In Progress
+    - title: Ongoing Learning
       items:
         - Molecular Dynamics
         - Bioinformatics
-        - Protein and Drug Design
+        - Protein and Drug Discovery
 
