@@ -6,4 +6,4 @@ inline: True
 related_posts: false
 ---
 
-I'll be defending my Master's thesis titled **'AI-driven Prediction of Circular Dichroism Spectra of Proteins'** at Cinvestav in Mexico City! 💻📊🎓
+I successfully defended my Master's thesis titled **'AI-driven Prediction of Circular Dichroism Spectra of Proteins'** at Cinvestav in Mexico City! 💻📊🎓
