@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. in Statistical Physics. <a href='https://cinvestav.mx/'>Cinvestav</a>, Mexico City, Mexico. 
+subtitle: M.Sc. in Statistical Physics | Data Scientist | AI Engineer 
 
 profile:
   align: right
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an M.Sc. in Statistical Physics, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
+I am an M.Sc. in Statistical Physics at [Cinvestav](https://cinvestav.mx/), in Mexico City, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
 
 My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Statistical Physics, with a focus on developing computational tools for biological applications.
 
