@@ -58,7 +58,7 @@ This avoids misleading hard boundaries while clearly conveying the scale of Rg.
 
 ---
 
-### 🐈‍⬛ Repository 
+## 🐈‍⬛ Repository 
 
 Access the <a href="https://github.com/manuroag/radius_of_gyration">full repository here</a>.
 
