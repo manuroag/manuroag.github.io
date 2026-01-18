@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Drug Hunter: AI-driven Binding Affinity Prediction"
-description: A Geometric Deep Learning pipeline predicting drug-target binding affinity ($K_d$) using Graph Neural Networks (GNNs).
+description: A Geometric Deep Learning pipeline predicting drug-target binding affinity (K_d) using Graph Neural Networks (GNNs).
 img: assets/img/drug_hunter.png
 importance: 2
 category: independent
@@ -22,7 +22,7 @@ This project is currently being finalized. The repository will utilize **PyTorch
 **Key Objectives:**
 - **Input:** Drug SMILES string (e.g., Aspirin: `CC(=O)OC1=CC=CC=C1C(=O)O`)
 - **Task:** Regression Analysis on graph-structured data
-- **Output:** Predicted Binding Affinity ($pK_d$ or $IC_{50}$)
+- **Output:** Predicted Binding Affinity ($`pK_d`$ or $`IC_{50}`$)
 
 ---
 
@@ -31,8 +31,8 @@ This project is currently being finalized. The repository will utilize **PyTorch
 The core challenge in AI drug discovery is representing molecules in a way computers can understand. We strictly avoid "flat" features (like molecular weight) and instead preserve the **topological structure** of the molecule.
 
 Using `rdkit`, we convert raw SMILES strings into **Graph Objects**:
-- **Nodes ($V$):** Represent atoms (Carbon, Oxygen, Nitrogen).
-- **Edges ($E$):** Represent chemical bonds (Single, Double, Aromatic).
+- **Nodes ($`V`$):** Represent atoms (Carbon, Oxygen, Nitrogen).
+- **Edges ($`E`$):** Represent chemical bonds (Single, Double, Aromatic).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -56,7 +56,7 @@ The model uses a **Dual-Encoder Strategy** to process the two distinct data moda
 
 $$\hat{y} = \text{MLP}( \text{Concat}( \mathbf{h}_{drug}, \mathbf{h}_{protein} ) )$$
 
-Where $\mathbf{h}_{drug}$ is the learned graph embedding and $\mathbf{h}_{protein}$ is the sequence embedding. The final output is the predicted dissociation constant ($K_d$).
+Where $`\mathbf{h}_{drug}`$ is the learned graph embedding and $`\mathbf{h}_{protein}`$ is the sequence embedding. The final output is the predicted dissociation constant ($`K_d`$).
 
 ---
 
