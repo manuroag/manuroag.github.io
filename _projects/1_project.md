@@ -17,7 +17,7 @@ The radius of gyration is a fundamental scalar quantity that characterizes the *
 
 ## 📐 What is Radius of Gyration?
 
-For a protein with atomic coordinates $R_i$ and center of mass $R_{CM}$, the radius of gyration is defined as:
+For a protein with atomic coordinates R_i and center of mass R_{CM}, the radius of gyration is defined as:
 
 $${R_g}^2 = \sum_{i=1}^{N} (R_i - R_{CM} )^2 / N + \frac{3}{5} R^2 $$
 
@@ -55,5 +55,11 @@ This avoids misleading hard boundaries while clearly conveying the scale of Rg.
         {% include figure.liquid loading="eager" path="assets/img/rg_1ecz.png" title="Radius of gyration visualization 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+---
+
+### ☁️ Repository 
+
+Access the <a href="https://github.com/manuroag/radius_of_gyration">full repository here</a>.
 
 ---
