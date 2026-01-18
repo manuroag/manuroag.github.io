@@ -3,7 +3,7 @@ layout: page
 title: Radius of Gyration of Proteins
 description: This repository contains data and Jupyter notebooks to compute and visualize the radius of gyration (Rg) of protein structures.
 img: assets/img/rg_1ecz.png
-importance: 2
+importance: 1
 category: work
 related_publications: false
 ---

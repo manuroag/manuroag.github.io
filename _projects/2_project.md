@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Drug Hunter: AI Binding Affinity
+title: "Drug Hunter: AI-driven Binding Affinity Prediction"
 description: A Geometric Deep Learning pipeline predicting drug-target binding affinity ($K_d$) using Graph Neural Networks (GNNs).
 img: assets/img/drug_hunter.png
-importance: 1
+importance: 2
 category: independent
 related_publications: false
 ---
