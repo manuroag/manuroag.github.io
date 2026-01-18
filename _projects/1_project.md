@@ -8,6 +8,12 @@ category: work
 related_publications: false
 ---
 
+## 🐈‍⬛ Repository 
+
+Access the <a href="https://github.com/manuroag/radius_of_gyration">full repository here</a>.
+
+---
+
 The radius of gyration is a fundamental scalar quantity that characterizes the **spatial distribution of mass** in a protein and is widely used in:
 - Structural biology
 - Polymer physics
@@ -55,11 +61,5 @@ This avoids misleading hard boundaries while clearly conveying the scale of Rg.
         {% include figure.liquid loading="eager" path="assets/img/rg_1ecz.png" title="Radius of gyration visualization 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
----
-
-## 🐈‍⬛ Repository 
-
-Access the <a href="https://github.com/manuroag/radius_of_gyration">full repository here</a>.
 
 ---

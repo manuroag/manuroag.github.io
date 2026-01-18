@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of my projects.
+description: I am currently orginizing my portfolio—please check back soon for new projects. 🧪🧬📊
 nav: true
 nav_order: 1
 display_categories: [independent, work]
