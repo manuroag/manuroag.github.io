@@ -2,7 +2,7 @@
 layout: page
 title: "Drug Hunter: AI-driven Binding Affinity Prediction"
 description: A Geometric Deep Learning pipeline predicting drug-target binding affinity (K_d) using Graph Neural Networks (GNNs).
-img: assets/img/drug_hunter.png
+img: assets/img/drug_hunter1.png
 importance: 2
 category: independent
 related_publications: false
@@ -36,7 +36,7 @@ Using `rdkit`, we convert raw SMILES strings into **Graph Objects**:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drug_hunter.png" title="Radius of gyration visualization" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/drug_hunter1.png" title="Radius of gyration visualization" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
