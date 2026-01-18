@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: I am currently orginizing my portfolio—please check back soon for new projects. 🧪🧬📊
+description: I am currently organizing my portfolio—please check back soon for new projects! 🧬📊
 nav: true
 nav_order: 1
 display_categories: [independent, work]
