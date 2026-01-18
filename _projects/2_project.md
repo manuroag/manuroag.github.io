@@ -58,8 +58,6 @@ $$\hat{y} = \text{MLP}( \text{Concat}( \mathbf{h}_{drug}, \mathbf{h}_{protein} )
 
 Where $\mathbf{h}_{drug}$ is the learned graph embedding and $\mathbf{h}_{protein}$ is the sequence embedding. The final output is the predicted dissociation constant ($K_d$).
 
-
-
 ---
 
 ## 📊 Interactive Visualization

@@ -3,7 +3,7 @@ layout: page
 title: Radius of Gyration of Proteins
 description: This repository contains data and Jupyter notebooks to compute and visualize the radius of gyration (Rg) of protein structures.
 img: assets/img/rg_1ecz.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
@@ -14,14 +14,12 @@ Access the <a href="https://github.com/manuroag/radius_of_gyration">full reposit
 
 ---
 
+## 📐 What is Radius of Gyration?
+
 The radius of gyration is a fundamental scalar quantity that characterizes the **spatial distribution of mass** in a protein and is widely used in:
 - Structural biology
 - Polymer physics
 - Protein folding and compaction analysis
-
----
-
-## 📐 What is Radius of Gyration?
 
 For a protein with atomic coordinates R_i and center of mass R_{CM}, the radius of gyration is defined as:
 
