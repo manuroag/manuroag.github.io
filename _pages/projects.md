@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 description: I am currently organizing my portfolio—please check back soon for new projects! 🧬📊
 nav: true
 nav_order: 1
 display_categories: [independent, work]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
