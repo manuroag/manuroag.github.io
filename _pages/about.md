@@ -51,10 +51,11 @@ My Master's thesis focused on enhancing the [KCD method](https://doi.org/10.1002
        class="img-fluid rounded"
        style="width: 100%; max-width: 680px;" 
        alt="KCD AI Model">
-  <figcaption>
-    <strong>Fig. 1.</strong> KCD-AI workflow: Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
-  </figcaption>
 </figure>
+<div class="caption">
+    <strong>Fig. 1.</strong> KCD-AI workflow: Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
+</div>
+
 
 Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in computational biophysics, AI-driven protein and drug discovery, or related fields.
 
