@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI-driven Prediction of CD Spectra of Proteins"
-description: My M.Sc. Thesis. I specialized in integrating Deep Learning with theoretical physics models to predict protein properties.
+description: My M.Sc. Thesis. Integration of Deep Learning with theoretical physics models to predict protein properties.
 img: assets/img/thesis.png
 importance: 3
 category: independent
@@ -23,8 +23,22 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 </div>
 <div class="caption">
     Credit: <a href='https://commons.wikimedia.org/w/index.php?curid=139489607
-'>Wikipedia.</a> <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>
+'>Wikipedia</a> & <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>
 </div>
 
+---
+
+## 💻 Why to Predict CD Spectra?
+
+Computational prediction of CD spectra is particularly useful for comparing two proteins when the high-resolution structure of one protein (determined by methods such as X-ray diffraction, cryo-EM, or NMR) or a predicted structure (e.g., from AlphaFold or similar tools) is available, but only the CD spectrum of the second protein is known. These comparisons serve various purposes, including validating structural similarity (homology), assessing the folding of mutated proteins, observing the effects of ligand binding, or environmental factors on protein conformation, and determining whether modeled (or predicted) structures have CD spectra similar to experimental spectra.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/validation.png" title="CD model validation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Computational prediction of CD spectra is a powerful tool for structural comparison and validation.
+</div>
 
 ---
