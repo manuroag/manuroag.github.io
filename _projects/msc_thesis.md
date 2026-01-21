@@ -8,6 +8,8 @@ category: independent
 related_publications: false
 ---
 
+You can see the full [Thesis here](/assets/pdf/MScThesis_JoseManuelRoblesAguilar.pdf). 📓
+
 ---
 
 ## ➿ Circular Dichroism (CD)
