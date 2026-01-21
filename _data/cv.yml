@@ -4,15 +4,15 @@
     - name: Full Name
       value: José Manuel Robles Aguilar
     - name: Title
-      value: MSc Student
+      value: M.Sc. in Statistical Physics | Data Scientist | AI Engineer
     - name: Institution
-      value: Cinvestav, Department of Physics, Mexico City
+      value: Department of Physics, Cinvestav, Mexico City
     - name: email
       value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
-    - name: Research Areas
-      value: Statistical Physics, Artificial Intelligence, Computational Biophysics, Protein Science
+    - name: Research Interests
+      value: Computational Biophysics, Force Fields, MD, AI-driven Scientific Discovery, Drug and Materials Discovery, Protein Design, Statistical Physics
     - name: Languages
-      value: Spanish (Native), English (C1), French (B1), German (A1)
+      value: "Spanish (Native), English (C1, IELTS: 7.5), French (B1), German (A1)"
 
 - title: Education
   type: time_table
@@ -23,101 +23,136 @@
       description:
         - title: "Thesis: AI-driven Prediction of Circular Dichroism Spectra of Proteins"
           contents:
-          - "Advisor: Dr. Mauricio Demetrio Carbajal-Tinoco"
-          - "Co-advisor: Dr. Damián Jacinto-Méndez"
-        - "GPA: 3.6"
+          - "Advisors: Dr. Mauricio Demetrio Carbajal-Tinoco & Dr. Damián Jacinto-Méndez"
+          - "Focus: Integration of Deep Bayesian Neural Networks with the theoretical KCD method"
+        - "GPA: 9.1/10"
     - title: BS in Physics and Mathematics
       institution: Intituto Politécnico Nacional (IPN)
       year: 2017 - 2022
       description:
-        - "GPA: 3.4"
+        - "Focus: Stochastic Processes and Materials Science"
+        - "GPA: 8.64/10"
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: MSc Thesis
+    - title: Graduate Researcher
       institution: Cinvestav, Mexico City, MX
-      year: 2024 - 2025
+      year: 2023 - 2025
       description:
-        - Developed and implemented deep Bayesian Neural Networks to the KCD method
-        - This approach resulted in a 40% improvement in average prediction accuracy compared to the original method
-    
-    - title: AI+Science Summer School
-      institution: University of Chicago John W. Boyer Center, Paris, FR
-      year: 2025
+        - Developed a hybrid AI-Physics framework to predict protein optical activity, outperforming state-of-the-art methods by 40%
+        - Modeled electromagnetic interactions in proteins using the DeVoe polarizability model
+        - Implemented Deep Bayesian Neural Networks to quantify uncertainty in spectral predictions, addressing the ”blackbox” problem in AI-driven biophysics
+        - Analyzed complex biological data sets to correlate structural motifs (Alpha-helix/Beta-sheet/RandomCoils/Others) with spectral outputs
 
-    - title: Fluorescence Microscopy project
+    - title: Research Intern
       institution: Soft Matter Laboratory, Cinvestav, Mexico City, MX
       year: 2025
       description:
-        - I prepared fluorescent nanoparticle samples, captured imaging data across varying focal heights, and performed image processing to generate a robust calibration curve. This calibration is now the foundational standard for the laboratory’s ongoing research.
-        - I applied this protocol to characterize the Brownian motion of nanoparticles within lipid vesicles.
+        - Investigated Brownian motion of nanoparticles within lipid vesicles
+        - Designed a computer vision pipeline for particle tracking and trajectory analysis
+        - Calibrated high-precision fluorescence microscopy equipment and captured imaging data across varying focal heights
+        - Contributed to the understanding of diffusion processes in biological soft matter systems
 
-    - title: Statistical Physics project
-      institution: Cinvestav, Mexico City, MX
-      year: 2024
-      description:
-        - I measured the radius of gyration for alpha-helix and beta-sheet proteins
-        - This work provided my entry point into protein science and bioinformatics, grounding me in the structural analysis of biomolecules.
-
-    - title: Durham-QMUL-Leeds International Research School
-      institution: Durham University, Durham, UK
-      year: 2022
-      description:
-        - I collaborated with an interdisciplinary team to develop and successfully defend a research proposal addressing Sustainable Development Goals (SDG)
-
-    - title: Teaching Assistantship
+    - title: Teaching Assistant
       institution: Center for Computing Research (CIC), Mexico City, MX
       year: 2022
       description:
-        - "Advisor: Dr. Sun GuoHua, current leader of the Quantum Computing Laboratory at CIC"
+        - Translated complex technical course material into accessible educational animations using Adobe Illustrator and After Effects
+        - Taught and prepared materials for courses on LaTeX and technical documentation in English and Spanish
 
     - title: Institutional Incentive Grant for Research Training (BEIFI)
       institution: Superior School of Physics and Mathematics (ESFM-IPN), Mexico City, MX
       year: 2018 - 2022
       description:
-        - "Advisors: Dr. Gerardo Ortega-Cervantes, Dr. Ana María Paniagua-Mercado and Dr. Norma Sanchez-Salas"
+        - Conducted experimental research and computational simulations in Materials Science and Stochastic Processes
 
-- title: Poster Presentations
+- title: Conferences and Schools
   type: time_table
   contents:
     - title: 13th Symposium on Structural Proteomics
       institution: Human Technopole, Milan, IT
       year: 2025
+      description:
+        - Presented research on AI-driven CD spectra prediction to an international audience of computational biophysicists and structural biologists
 
     - title: Physics and Life Days Conference
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
+      description:
+        - Presented the Knowledge-basedCircular Dichroism (KCD) method to an international audience of physicists
 
-- title: Skills and Knowledge
+    - title: AI+Science Summer School
+      institution: University of Chicago John W. Boyer Center, Paris, FR
+      year: 2025
+      description:
+        - Selected to attend intensive training on the application of Artificial Intelligence in scientific discovery
+
+    - title: Durham-QMUL-Leeds International Research School
+      institution: Durham University, Durham, UK
+      year: 2022
+      description:
+        -  Collaborated with an international team to develop and defend a research proposal addressing Sustainable Development Goals (SDG)
+
+- title: Technical Skilss
   type: nested_list
   contents:
-    - title: Computational
+    - title: Machine Learning and AI
       items:
-        - Deep Learning (PyTorch)
-        - Machine Learning (SciKit-learn)
-        - GenAI (Prompt Engineering)
-        - Python
-        - Matlab
+        - Deep Learning
+        - Bayesian Neural Networks (BNNs)
+        - Graph Neural Networks (GNNs)
+        - Computer Vision
+        - Regression/Classification/Clustering
+        - XGBoost
+        - LightGBM
+        - Generative AI & Prompt Engineering
+        - Predictive Modeling 
+        - Hyperparameter Optimization
+        - Bayesian Optimization
+
+    - title: Programming and Tools
+      items:
+        - Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Optuna, Seaborn, GROMACS, MDAnalysis, NGLView)
+        - Git
+        - Linux/Unix
         - Bash Scripting
-        - Proteomics
-        - Algorithm Design and Analysis
-        - Quantum Computing
-        - Data Analysis
-        - Microsoft Office
-        - Excel and PowerBI
-
-    - title: Physics and Mathematics
+        - CUDA/GPU Acceleration
+        - MATLAB
+        - SQL
+        - Excel
+        - Power BI
+        - LaTeX
+        - Adobe Illustrator
+        - After Effects
+    
+    -title: Scientific Computing
       items:
-        - Statistical Physics
-        - Non-equilibrium Statistical Physics
-        - Biophysics
-        - Experimental (Fluorescence Microscopy, XRD, AFM, EM, UV-Vis, Raman)
-        - Statistics
-
-    - title: Ongoing Learning
-      items:
-        - Molecular Dynamics
         - Bioinformatics
-        - Protein and Drug Discovery
+        - Molecular Dynamics
+        - Proteomics
+        - ChimeraX
+        - Statistical Mechanics
+        - Monte Carlo Simulations
+        - Numerical Methods
+        - Quantum Computing
+        - Exploratory Data Analysis
+        - Data Science
 
+    - title: Experimental
+      items:
+        - Fluorescence Microscopy
+        - X-Ray Diffraction (XRD)
+        - Atomic Force Microscopy (AFM)
+        - Electron Microscopy (EM)
+        - UV-Vis Spectroscopy
+        - Raman Spectroscopy
+
+    - title: Mathematics
+      items:
+        - BayesianStatistics
+        - Linear Algebra
+        - Calculus
+        - Stochastic Processes
+        - Game Theory
+        - Non-equilibrium Statistical Mechanics
