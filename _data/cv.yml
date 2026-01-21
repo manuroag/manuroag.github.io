@@ -89,7 +89,7 @@
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
 
-- title: Technical Skilss
+- title: Skills and Knowledge
   type: nested_list
   contents:
     - title: Machine Learning and AI
@@ -105,45 +105,18 @@
         - Predictive Modeling 
         - Hyperparameter Optimization
         - Bayesian Optimization
-    - title: Programming and Tools
+
+    - title: Physics and Mathematics
       items:
-        - Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Optuna, Seaborn, GROMACS, MDAnalysis, NGLView)
-        - Git
-        - Linux/Unix
-        - Bash Scripting
-        - CUDA/GPU Acceleration
-        - MATLAB
-        - SQL
-        - Excel
-        - Power BI
-        - LaTeX
-        - Adobe Illustrator
-        - After Effects
-    -title: Scientific Computing
+        - Statistical Physics
+        - Non-equilibrium Statistical Physics
+        - Biophysics
+        - Experimental (Fluorescence Microscopy, XRD, AFM, EM, UV-Vis, Raman)
+        - Statistics
+
+    - title: Ongoing Learning
       items:
-        - Bioinformatics
         - Molecular Dynamics
-        - Proteomics
-        - ChimeraX
-        - Statistical Mechanics
-        - Monte Carlo Simulations
-        - Numerical Methods
-        - Quantum Computing
-        - Exploratory Data Analysis
-        - Data Science
-    - title: Experimental
-      items:
-        - Fluorescence Microscopy
-        - X-Ray Diffraction (XRD)
-        - Atomic Force Microscopy (AFM)
-        - Electron Microscopy (EM)
-        - UV-Vis Spectroscopy
-        - Raman Spectroscopy
-    - title: Mathematics
-      items:
-        - BayesianStatistics
-        - Linear Algebra
-        - Calculus
-        - Stochastic Processes
-        - Game Theory
-        - Non-equilibrium Statistical Mechanics
+        - Bioinformatics
+        - Protein and Drug Discovery
+
