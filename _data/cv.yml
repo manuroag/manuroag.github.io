@@ -89,7 +89,7 @@
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
 
-- title: Technical Skills
+- title: Skills and Knowledge
   type: nested_list
   contents:
     - title: Machine Learning and AI
@@ -108,7 +108,7 @@
 
     - title: Programming and Tools
       items:
-        - Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Optuna, Seaborn, GROMACS, MDAnalysis, NGLView)
+        - Python
         - Git
         - Linux/Unix
         - Bash Scripting
@@ -133,21 +133,4 @@
         - Quantum Computing
         - Exploratory Data Analysis
         - Data Science
-    
-    - title: Experimental
-      items:
-        - Fluorescence Microscopy
-        - X-Ray Diffraction (XRD)
-        - Atomic Force Microscopy (AFM)
-        - Electron Microscopy (EM)
-        - UV-Vis Spectroscopy
-        - Raman Spectroscopy
-    
-    - title: Mathematics
-      items:
-        - BayesianStatistics
-        - Linear Algebra
-        - Calculus
-        - Stochastic Processes
-        - Game Theory
-        - Non-equilibrium Statistical Mechanics
+
