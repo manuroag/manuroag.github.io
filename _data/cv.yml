@@ -12,7 +12,7 @@
     - name: Research Interests
       value: Computational Biophysics, Force Fields, MD, AI-driven Scientific Discovery, Drug and Materials Discovery, Protein Design, Statistical Physics.
     - name: Languages
-      value: Spanish (Native), English (C1), French (B1), German (A1)
+      value: Spanish (Native), English (C1, IELTS 7.5), French (B1), German (A1)
 
 - title: Education
   type: time_table
@@ -89,35 +89,61 @@
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
 
-- title: Skills and Knowledge
+- title: Technical Skilss
   type: nested_list
   contents:
-    - title: Computational
+    - title: Machine Learning and AI
       items:
-        - Deep Learning (PyTorch)
-        - Machine Learning (SciKit-learn)
-        - GenAI (Prompt Engineering)
-        - Python
-        - Matlab
+        - Deep Learning
+        - Bayesian Neural Networks (BNNs)
+        - Graph Neural Networks (GNNs)
+        - Computer Vision
+        - Regression/Classification/Clustering
+        - XGBoost
+        - LightGBM
+        - Generative AI & Prompt Engineering
+        - Predictive Modeling 
+        - Hyperparameter Optimization
+        - Bayesian Optimization
+    - title: Programming and Tools
+      items:
+        - Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Optuna, Seaborn, GROMACS, MDAnalysis, NGLView)
+        - Git
+        - Linux/Unix
         - Bash Scripting
-        - Proteomics
-        - Algorithm Design and Analysis
-        - Quantum Computing
-        - Data Analysis
-        - Microsoft Office
-        - Excel and PowerBI
-
-    - title: Physics and Mathematics
+        - CUDA/GPU Acceleration
+        - MATLAB
+        - SQL
+        - Excel
+        - Power BI
+        - LaTeX
+        - Adobe Illustrator
+        - After Effects
+    -title: Scientific Computing
       items:
-        - Statistical Physics
-        - Non-equilibrium Statistical Physics
-        - Biophysics
-        - Experimental (Fluorescence Microscopy, XRD, AFM, EM, UV-Vis, Raman)
-        - Statistics
-
-    - title: Ongoing Learning
-      items:
-        - Molecular Dynamics
         - Bioinformatics
-        - Protein and Drug Discovery
-
+        - Molecular Dynamics
+        - Proteomics
+        - ChimeraX
+        - Statistical Mechanics
+        - Monte Carlo Simulations
+        - Numerical Methods
+        - Quantum Computing
+        - Exploratory Data Analysis
+        - Data Science
+    - title: Experimental
+      items:
+        - Fluorescence Microscopy
+        - X-Ray Diffraction (XRD)
+        - Atomic Force Microscopy (AFM)
+        - Electron Microscopy (EM)
+        - UV-Vis Spectroscopy
+        - Raman Spectroscopy
+    - title: Mathematics
+      items:
+        - BayesianStatistics
+        - Linear Algebra
+        - Calculus
+        - Stochastic Processes
+        - Game Theory
+        - Non-equilibrium Statistical Mechanics
