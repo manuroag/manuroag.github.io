@@ -108,7 +108,7 @@
 
     - title: Programming and Tools
       items:
-        - Python
+        - Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Optuna, Seaborn, GROMACS, MDAnalysis, NGLView)
         - Git
         - Linux/Unix
         - Bash Scripting
@@ -118,19 +118,11 @@
         - Excel
         - Power BI
         - LaTeX
-        - Adobe Illustrator
-        - After Effects
+        - Adobe Illustrator and After Effects
 
-    -title: Scientific Computing
+    - title: Ongoing Learning
       items:
-        - Bioinformatics
         - Molecular Dynamics
-        - Proteomics
-        - ChimeraX
-        - Statistical Mechanics
-        - Monte Carlo Simulations
-        - Numerical Methods
-        - Quantum Computing
-        - Exploratory Data Analysis
-        - Data Science
+        - Bioinformatics
+        - Protein and Drug Discovery
 
