@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI-driven Prediction of CD Spectra of Proteins"
-description: My M.Sc. Thesis. Integration of Deep Learning with theoretical physics models to predict protein properties.
+description: My M.Sc. Thesis.
 img: assets/img/thesis.png
 importance: 3
 category: independent
@@ -74,4 +74,4 @@ be determined externally.
 
 ---
 
-## 🤖 Artificial Intelligence to Enhance KCD
+## 🤖 KCD-AI
