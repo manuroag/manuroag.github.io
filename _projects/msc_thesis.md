@@ -10,7 +10,7 @@ related_publications: false
 
 ---
 
-## 🔦➿ Circular Dichroism (CD)
+## ➿ Circular Dichroism (CD)
 
 An important property of the amino acids that compose proteins is chirality. A molecule is chiral when it is not superimposable on its mirror image. Chirality in amino acids arises from the presence of an asymmetric carbon, a carbon atom tetrahedrally bonded to four different atoms or groups. Glycine, which has a hydrogen atom as its side chain, is the only achiral amino acid.
 
@@ -55,7 +55,21 @@ The Knowledge-based Circular Dichroism (KCD) server utilizes a model based on th
     </div>
 </div>
 <div class="caption">
-    Credit: 
+    Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>
 </div>
 
 ---
+
+## 📄 The DeVoe's Theory of Optical Activity and KCD
+
+Howard DeVoe, in two seminal papers, presented a classical theoretical description of
+optical properties, including ellipticity, optical rotation, and extinction coefficients. This
+model has been widely applied to structural problems in organic, inorganic, and polymer
+chemistry. One of its primary advantages is its simplified framework, which treats the
+protein’s chromophores as damped oscillators modeled as point dipoles. This provides a
+suitable method for deriving optical properties while allowing for the polarizabilities to
+be determined externally.
+
+---
+
+## 🤖 Artificial Intelligence to Enhance KCD
