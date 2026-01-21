@@ -44,7 +44,6 @@
         - Modeled electromagnetic interactions in proteins using the DeVoe polarizability model
         - Implemented Deep Bayesian Neural Networks to quantify uncertainty in spectral predictions, addressing the ”blackbox” problem in AI-driven biophysics
         - Analyzed complex biological data sets to correlate structural motifs (Alpha-helix/Beta-sheet/RandomCoils/Others) with spectral outputs
-
     - title: Research Intern
       institution: Soft Matter Laboratory, Cinvestav, Mexico City, MX
       year: 2025
@@ -53,14 +52,12 @@
         - Designed a computer vision pipeline for particle tracking and trajectory analysis
         - Calibrated high-precision fluorescence microscopy equipment and captured imaging data across varying focal heights
         - Contributed to the understanding of diffusion processes in biological soft matter systems
-
     - title: Teaching Assistant
       institution: Center for Computing Research (CIC), Mexico City, MX
       year: 2022
       description:
         - Translated complex technical course material into accessible educational animations using Adobe Illustrator and After Effects
         - Taught and prepared materials for courses on LaTeX and technical documentation in English and Spanish
-
     - title: Institutional Incentive Grant for Research Training (BEIFI)
       institution: Superior School of Physics and Mathematics (ESFM-IPN), Mexico City, MX
       year: 2018 - 2022
@@ -75,19 +72,16 @@
       year: 2025
       description:
         - Presented research on AI-driven CD spectra prediction to an international audience of computational biophysicists and structural biologists
-
     - title: Physics and Life Days Conference
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
       description:
         - Presented the Knowledge-basedCircular Dichroism (KCD) method to an international audience of physicists
-
     - title: AI+Science Summer School
       institution: University of Chicago John W. Boyer Center, Paris, FR
       year: 2025
       description:
         - Selected to attend intensive training on the application of Artificial Intelligence in scientific discovery
-
     - title: Durham-QMUL-Leeds International Research School
       institution: Durham University, Durham, UK
       year: 2022
@@ -110,7 +104,6 @@
         - Predictive Modeling 
         - Hyperparameter Optimization
         - Bayesian Optimization
-
     - title: Programming and Tools
       items:
         - Python (PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Optuna, Seaborn, GROMACS, MDAnalysis, NGLView)
@@ -125,7 +118,6 @@
         - LaTeX
         - Adobe Illustrator
         - After Effects
-    
     -title: Scientific Computing
       items:
         - Bioinformatics
@@ -138,7 +130,6 @@
         - Quantum Computing
         - Exploratory Data Analysis
         - Data Science
-
     - title: Experimental
       items:
         - Fluorescence Microscopy
@@ -147,7 +138,6 @@
         - Electron Microscopy (EM)
         - UV-Vis Spectroscopy
         - Raman Spectroscopy
-
     - title: Mathematics
       items:
         - BayesianStatistics
