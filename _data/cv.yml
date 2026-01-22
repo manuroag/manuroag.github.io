@@ -36,48 +36,33 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: MSc Thesis
+    - title: Graduate Researcher
       institution: Cinvestav, Mexico City, MX
-      year: 2024 - 2025
+      year: 2023 - 2025
       description:
-        - Developed and implemented deep Bayesian Neural Networks to the KCD method
-        - This approach resulted in a 40% improvement in average prediction accuracy compared to the original method
-    
-    - title: AI+Science Summer School
-      institution: University of Chicago John W. Boyer Center, Paris, FR
-      year: 2025
-
-    - title: Fluorescence Microscopy project
+        - Developed a hybrid AI-Physics framework to predict protein optical activity, outperforming state-of-the-art methods by 40%
+        - Modeled electromagnetic interactions in proteins using the DeVoe polarizability model
+        - Implemented Deep Bayesian Neural Networks to quantify uncertainty in spectral predictions, addressing the "blackbox" problem in AI-driven biophysics
+        - Analyzed complex biological data sets to correlate structural motifs (Alpha-helix/Beta-sheet/RandomCoils/Others) with spectral outputs
+    - title: Research Intern
       institution: Soft Matter Laboratory, Cinvestav, Mexico City, MX
       year: 2025
       description:
-        - I prepared fluorescent nanoparticle samples, captured imaging data across varying focal heights, and performed image processing to generate a robust calibration curve. This calibration is now the foundational standard for the laboratory’s ongoing research.
-        - I applied this protocol to characterize the Brownian motion of nanoparticles within lipid vesicles.
-
-    - title: Statistical Physics project
-      institution: Cinvestav, Mexico City, MX
-      year: 2024
-      description:
-        - I measured the radius of gyration for alpha-helix and beta-sheet proteins
-        - This work provided my entry point into protein science and bioinformatics, grounding me in the structural analysis of biomolecules.
-
-    - title: Durham-QMUL-Leeds International Research School
-      institution: Durham University, Durham, UK
-      year: 2022
-      description:
-        - I collaborated with an interdisciplinary team to develop and successfully defend a research proposal addressing Sustainable Development Goals (SDG)
-
-    - title: Teaching Assistantship
+        - Investigated Brownian motion of nanoparticles within lipid vesicles
+        - Designed a computer vision pipeline for particle tracking and trajectory analysis
+        - Calibrated high-precision fluorescence microscopy equipment and captured imaging data across varying focal heights
+        - Contributed to the understanding of diffusion processes in biological soft matter systems
+    - title: Teaching Assistant
       institution: Center for Computing Research (CIC), Mexico City, MX
       year: 2022
       description:
-        - "Advisor: Dr. Sun GuoHua, current leader of the Quantum Computing Laboratory at CIC"
-
+        - Translated complex technical course material into accessible educational animations using Adobe Illustrator and After Effects
+        - Taught and prepared materials for courses on LaTeX and technical documentation in English and Spanish
     - title: Institutional Incentive Grant for Research Training (BEIFI)
       institution: Superior School of Physics and Mathematics (ESFM-IPN), Mexico City, MX
       year: 2018 - 2022
       description:
-        - "Advisors: Dr. Gerardo Ortega-Cervantes, Dr. Ana María Paniagua-Mercado and Dr. Norma Sanchez-Salas"
+        - Conducted experimental research and computational simulations in Materials Science and Stochastic Processes
 
 - title: Poster Presentations
   type: time_table
