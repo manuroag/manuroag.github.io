@@ -118,7 +118,8 @@
         - Excel
         - Power BI
         - LaTeX
-        - Adobe Illustrator and After Effects
+        - Adobe Illustrator
+        - After Effects
 
     -title: Scientific Computing
       items:
@@ -132,10 +133,3 @@
         - Quantum Computing
         - Exploratory Data Analysis
         - Data Science
-        
-    - title: Ongoing Learning
-      items:
-        - Molecular Dynamics
-        - Bioinformatics
-        - Protein and Drug Discovery
-
