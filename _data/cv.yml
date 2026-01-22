@@ -120,6 +120,19 @@
         - LaTeX
         - Adobe Illustrator and After Effects
 
+    -title: Scientific Computing
+      items:
+        - Bioinformatics
+        - Molecular Dynamics
+        - Proteomics
+        - ChimeraX
+        - Statistical Mechanics
+        - Monte Carlo Simulations
+        - Numerical Methods
+        - Quantum Computing
+        - Exploratory Data Analysis
+        - Data Science
+        
     - title: Ongoing Learning
       items:
         - Molecular Dynamics
