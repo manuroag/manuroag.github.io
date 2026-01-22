@@ -58,24 +58,38 @@
       description:
         - Translated complex technical course material into accessible educational animations using Adobe Illustrator and After Effects
         - Taught and prepared materials for courses on LaTeX and technical documentation in English and Spanish
-    - title: Institutional Incentive Grant for Research Training (BEIFI)
+    - title: Research Fellow (BEIFI Grant)
       institution: Superior School of Physics and Mathematics (ESFM-IPN), Mexico City, MX
       year: 2018 - 2022
       description:
         - Conducted experimental research and computational simulations in Materials Science and Stochastic Processes
 
-- title: Poster Presentations
+- title: Conferences and Schools
   type: time_table
   contents:
     - title: 13th Symposium on Structural Proteomics
       institution: Human Technopole, Milan, IT
       year: 2025
-
+      description:
+        - Presented research on AI-driven CD spectra prediction to an international audience of computational biophysicists and structural biologists
     - title: Physics and Life Days Conference
       institution: Institut Jacques Monod, Paris, FR
       year: 2025
+      description:
+        - Presented the Knowledge-basedCircular Dichroism (KCD) method to an international audience of physicists
+    - title: AI+Science Summer School
+      institution: University of Chicago John W. Boyer Center, Paris, FR
+      year: 2025
+      description:
+        - Selected to attend intensive training on the application of Artificial Intelligence in scientific discovery
+    - title: Durham-QMUL-Leeds International Research School
+      institution: Durham University, Durham, UK
+      year: 2022
+      description:
+        -  Collaborated with an international team to develop and defend a research proposal addressing Sustainable Development Goals (SDG)
 
-- title: Skills and Knowledge
+
+- title: Technical Skills
   type: nested_list
   contents:
     - title: Machine Learning and AI
