@@ -118,18 +118,11 @@
         - Excel
         - Power BI
         - LaTeX
-        - Adobe Illustrator
-        - After Effects
+        - Adobe Illustrator and After Effects
 
-    -title: Scientific Computing
+    - title: Scientific Computing
       items:
-        - Bioinformatics
         - Molecular Dynamics
-        - Proteomics
-        - ChimeraX
-        - Statistical Mechanics
-        - Monte Carlo Simulations
-        - Numerical Methods
-        - Quantum Computing
-        - Exploratory Data Analysis
-        - Data Science
+        - Bioinformatics
+        - Protein and Drug Discovery
+
