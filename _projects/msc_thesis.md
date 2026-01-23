@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI-driven Prediction of CD Spectra of Proteins"
+title: "AI-driven Prediction of Circular Dichroism Spectra of Proteins"
 description: My M.Sc. Thesis.
 img: assets/img/thesis.png
 importance: 3
@@ -8,7 +8,7 @@ category: independent
 related_publications: false
 ---
 
-You can see the full [Thesis here](/assets/pdf/MScThesis_JoseManuelRoblesAguilar.pdf). 📓
+📓 See the [full Thesis here](/assets/pdf/MScThesis_JoseManuelRoblesAguilar.pdf).
 
 ---
 
