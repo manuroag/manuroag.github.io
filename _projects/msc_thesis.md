@@ -20,11 +20,12 @@ Chiral structures can be distinguished and characterized by Circular Dichroism (
 
 Circular Dichroism (CD) spectroscopy is a versatile and rapid method for characterizing the secondary structure, conformation, and folding of proteins. While not a high-resolution technique, it is invaluable for analyzing protein-ligand interactions, validating computationally predicted structures, and assessing the effects of mutations.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/thesis.png" title="CD Spectroscopy" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<figure class="text-center">
+  <img src="/assets/img/thesis.png" 
+       class="img-fluid rounded z-depth-1"
+       style="width: 100%; max-width: 680px;" 
+       alt="CD Spectroscopy">
+</figure>
 <div class="caption">
     Credit: <a href='https://commons.wikimedia.org/w/index.php?curid=139489607
 '>Wikipedia</a> & <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>
