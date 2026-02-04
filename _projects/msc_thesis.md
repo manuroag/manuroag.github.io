@@ -22,7 +22,7 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 
 <figure class="text-center">
   <img src="/assets/img/thesis.png" 
-       class="img-fluid rounded z-depth-1"
+       class="img-fluid rounded"
        style="width: 100%; max-width: 680px;" 
        alt="CD Spectroscopy">
 </figure>
