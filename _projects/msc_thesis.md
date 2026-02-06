@@ -27,8 +27,9 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
        alt="CD Spectroscopy">
 </figure>
 <div class="caption">
-    Credit: <a href='https://commons.wikimedia.org/w/index.php?curid=139489607
-'>Wikipedia</a> & <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>
+    <strong>Fig. 1.</strong>
+    [Credit: <a href='https://commons.wikimedia.org/w/index.php?curid=139489607
+'>Wikipedia</a> & <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>]
 </div>
 
 
@@ -44,7 +45,7 @@ Computational prediction of CD spectra is particularly useful for comparing two 
        alt="CD model validation">
 </figure>
 <div class="caption">
-    Computational prediction of CD spectra is a powerful tool for structural comparison and validation.
+    <strong>Fig. 2.</strong> Computational prediction of CD spectra is a powerful tool for structural comparison and validation.
 </div>
 
 
@@ -59,7 +60,8 @@ The Knowledge-based Circular Dichroism (KCD) server utilizes a model based on th
     </div>
 </div>
 <div class="caption">
-    Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>
+    <strong>Fig. 3.</strong>
+    [Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>]
 </div>
 
 The KCD model predicts circular dichroism (CD) spectra by calculating suitable atomic polarizabilities using:
@@ -86,9 +88,9 @@ In this work, the input features that determine the weight constants for atomic 
 
 To handle the complexity of predicting 125 weight constants from only 4 feature inputs (secondary structure content), we designed a ”divide-and-conquer” architecture. Instead of one large Bayesian Neural Network (BNN) predicting all 125 weight constants, we trained four smaller, specialized BNNs.
 
-Once the four Bayesian Neural Networks are trained, they are integrated into the KCD model to function as a single prediction engine. When a new protein $p$ is entered for analysis, its four secondary structure features are fed as input to all four BNNs simultaneously.
+Once the four Bayesian Neural Networks are trained, they are integrated into the KCD model to function as a single prediction engine. When a new protein _p_ is entered for analysis, its four secondary structure features are fed as input to all four BNNs simultaneously.
 
-Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in the following figure, and is referred to as KCD-AI.
+Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in **Fig. 4.**, and is referred to as KCD-AI.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -96,5 +98,10 @@ Each BNN then predicts its own disjoint subset of the weight constants. These fo
     </div>
 </div>
 <div class="caption">
-    Conceptual workflow of the KCD-AI integration. (1) The secondary structure content of a protein (top left) is provided as input. (2) This is fed into the deep neural network framework (top right), which is represented here as a single block but conceptually consists of the four BNNs. (3) The BNNs output the 125 predicted weight constants. (4) The KCD model uses these constants to calculate the final CD spectrum (bottom left), which is then compared to the experimental spectrum.
+    <strong>Fig. 4.</strong> Conceptual workflow of the KCD-AI integration. (1) The secondary structure content of a protein (top left) is provided as input. (2) This is fed into the deep neural network framework (top right), which is represented here as a single block but conceptually consists of the four BNNs. (3) The BNNs output the 125 predicted weight constants. (4) The KCD model uses these constants to calculate the final CD spectrum (bottom left), which is then compared to the experimental spectrum.
 </div>
+
+
+## KCD-AI Performance
+
+
