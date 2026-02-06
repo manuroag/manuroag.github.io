@@ -46,7 +46,7 @@ This avoids misleading hard boundaries while clearly conveying the scale of Rg.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rg_1ymb.png" title="Radius of gyration visualization" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rg_1ymb.png" title="Radius of gyration visualization" class="img-fluid rounded" %}
     </div>
 </div>
 
@@ -56,7 +56,7 @@ This avoids misleading hard boundaries while clearly conveying the scale of Rg.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rg_1ecz.png" title="Radius of gyration visualization 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rg_1ecz.png" title="Radius of gyration visualization 2" class="img-fluid rounded" %}
     </div>
 </div>
 
