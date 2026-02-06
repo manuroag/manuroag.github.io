@@ -22,8 +22,8 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 
 <figure class="text-center">
   <img src="/assets/img/thesis.png" 
-       class="img-fluid rounded z-depth-1"
-       style="width: 100%; max-width: 600px;" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 680px;" 
        alt="CD Spectroscopy">
 </figure>
 <div class="caption">
@@ -31,7 +31,7 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 '>Wikipedia</a> & <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>
 </div>
 
----
+
 
 ## 💻 Why to Predict CD Spectra?
 
@@ -39,15 +39,15 @@ Computational prediction of CD spectra is particularly useful for comparing two 
 
 <figure class="text-center">
   <img src="/assets/img/validation.png" 
-       class="img-fluid rounded z-depth-1"
-       style="width: 100%; max-width: 600px;" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 580px;" 
        alt="CD model validation">
 </figure>
 <div class="caption">
     Computational prediction of CD spectra is a powerful tool for structural comparison and validation.
 </div>
 
----
+
 
 ## 📖 The Knowledge-based Circular Dichroism (KCD) method
 
@@ -55,25 +55,28 @@ The Knowledge-based Circular Dichroism (KCD) server utilizes a model based on th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KCD.png" title="KCD" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/KCD.png" title="KCD" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
     Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>
 </div>
 
----
+The KCD model predicts circular dichroism (CD) spectra by calculating suitable atomic polarizabilities using:
 
-## 📄 The DeVoe's Theory of Optical Activity and KCD
+$$[o_p] = - \sum_{a,a'} \alpha_{ap} \alpha_{a'p} \langle C_{aa'}^{p} G_{aa'}^{p} \rangle_{\Omega}$$ 
 
-Howard DeVoe, in two seminal papers, presented a classical theoretical description of
-optical properties, including ellipticity, optical rotation, and extinction coefficients. This
-model has been widely applied to structural problems in organic, inorganic, and polymer
-chemistry. One of its primary advantages is its simplified framework, which treats the
-protein’s chromophores as damped oscillators modeled as point dipoles. This provides a
-suitable method for deriving optical properties while allowing for the polarizabilities to
-be determined externally.
+where
 
----
+$$\alpha_{ap} = \sum_b c_{bp} \alpha_{ab}.$$
 
-## 🤖 KCD-AI
+The weight constants in this equation, which are determined by the rule of proximity:
+
+$$c_{bp} = 100\exp{\left( \frac{-50[|s_{\alpha b} - s_{\alpha p}| + |s_{\beta b} - s_{\beta p}| + |s_{cb} - s_{cp}| + |s_{ob} - s_{op}|]}{\tau} \right)}$$ 
+
+have led to the KCD model’s notable accuracy. However, this accuracy can be further enhanced by identifying a more effective method for determining these weight constants, thereby yielding more precise atomic polarizabilities. Deep neural networks are a powerful machine learning approach that excel at discovering intricate relationships within data. By mimicking the learning processes found in biological organisms, they are ideally suited to find a new rule that could provide better weight constants for the KCD model.
+
+
+
+## 🕸️ Bayesian Neural Networks (BNNs)
+
