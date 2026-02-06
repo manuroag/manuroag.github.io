@@ -14,11 +14,11 @@ related_publications: false
 
 ## Circular Dichroism (CD)
 
-An important property of the amino acids that compose proteins is chirality. A molecule is chiral when it is not superimposable on its mirror image. Chirality in amino acids arises from the presence of an asymmetric carbon, a carbon atom tetrahedrally bonded to four different atoms or groups. Glycine, which has a hydrogen atom as its side chain, is the only achiral amino acid.
+An important property of the amino acids that compose proteins is chirality. A molecule is chiral when it is not superimposable on its mirror image (**Fig. 1**). Chirality in amino acids arises from the presence of an asymmetric carbon, a carbon atom tetrahedrally bonded to four different atoms or groups. Glycine, which has a hydrogen atom as its side chain, is the only achiral amino acid.
 
 Chiral structures can be distinguished and characterized by Circular Dichroism (CD) spectroscopy, a technique based on measuring the differential absorption of left- and right-circularly polarized light. For proteins, CD occurs in the near and far ultraviolet (UV) wavelength ranges, where the amide and carbonyl groups of the polypeptide backbone absorb light.
 
-Circular Dichroism (CD) spectroscopy is a versatile and rapid method for characterizing the secondary structure, conformation, and folding of proteins. While not a high-resolution technique, it is invaluable for analyzing protein-ligand interactions, validating computationally predicted structures, and assessing the effects of mutations.
+Circular Dichroism (CD) spectroscopy is a versatile and rapid method for characterizing the secondary structure (**Fig. 1**), conformation, and folding of proteins. While not a high-resolution technique, it is invaluable for analyzing protein-ligand interactions, validating computationally predicted structures, and assessing the effects of mutations.
 
 <figure class="text-center">
   <img src="/assets/img/thesis.png" 
@@ -27,16 +27,16 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
        alt="CD Spectroscopy">
 </figure>
 <div class="caption">
-    <strong>Fig. 1.</strong>
+    <strong>Fig. 1.</strong> Example of the chiral amino acid Alanine and the characteristic far-UV CD spectra of different protein architectures which exhibit characteristic spectral shapes.
     [Credit: <a href='https://commons.wikimedia.org/w/index.php?curid=139489607
 '>Wikipedia</a> & <a href='https://doi.org/10.1007/978-1-0716-0892-0_11'>Micsonai A, et al.</a>]
 </div>
 
-
+---
 
 ## Why to Predict CD Spectra?
 
-Computational prediction of CD spectra is particularly useful for comparing two proteins when the high-resolution structure of one protein (determined by methods such as X-ray diffraction, cryo-EM, or NMR) or a predicted structure (e.g., from AlphaFold or similar tools) is available, but only the CD spectrum of the second protein is known. These comparisons serve various purposes, including validating structural similarity (homology), assessing the folding of mutated proteins, observing the effects of ligand binding, or environmental factors on protein conformation, and determining whether modeled (or predicted) structures have CD spectra similar to experimental spectra.
+Computational prediction of CD spectra is particularly useful for comparing two proteins when the high-resolution structure of one protein (determined by methods such as X-ray diffraction, cryo-EM, or NMR) or a predicted structure (e.g., from AlphaFold or similar tools) is available, but only the CD spectrum of the second protein is known. These comparisons serve various purposes, including validating structural similarity (homology), assessing the folding of mutated proteins, observing the effects of ligand binding, or environmental factors on protein conformation, and determining whether modeled (or predicted) structures have CD spectra similar to experimental spectra (**Fig. 2**).
 
 <figure class="text-center">
   <img src="/assets/img/validation.png" 
@@ -45,10 +45,10 @@ Computational prediction of CD spectra is particularly useful for comparing two 
        alt="CD model validation">
 </figure>
 <div class="caption">
-    <strong>Fig. 2.</strong> Computational prediction of CD spectra is a powerful tool for structural comparison and validation.
+    <strong>Fig. 2.</strong> Validation example using KCD-AI: CD spectra for protein 1K6J (NmrA), which has a large missing loop (indicated by the orange-circled region in the structure). The experimental spectrum (Exp, red circles) is compared with the KCD-AI prediction from the original, incomplete structure (Orig, dotted gray line) and with predictions from three computationally-completed models: Modeller (Mod, blue line), AlphaFold3 (AF3, green line), and I-Tasser (I-Ta, solid gray line).
 </div>
 
-
+---
 
 ## The Knowledge-based Circular Dichroism (KCD) method
 
@@ -60,7 +60,7 @@ The Knowledge-based Circular Dichroism (KCD) server utilizes a model based on th
     </div>
 </div>
 <div class="caption">
-    <strong>Fig. 3.</strong>
+    <strong>Fig. 3.</strong> Workflow of the KCD server.
     [Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>]
 </div>
 
@@ -72,17 +72,17 @@ where
 
 $$\alpha_{ap} = \sum_b c_{bp} \alpha_{ab}.$$
 
-The weight constants in this equation, which are determined by the rule of proximity:
+The weight constants in this equation, are determined by the rule of proximity:
 
 $$c_{bp} = 100\exp{\left( \frac{-50[|s_{\alpha b} - s_{\alpha p}| + |s_{\beta b} - s_{\beta p}| + |s_{cb} - s_{cp}| + |s_{ob} - s_{op}|]}{\tau} \right)}$$ 
 
-have led to the KCD model’s notable accuracy. However, this accuracy can be further enhanced by identifying a more effective method for determining these weight constants, thereby yielding more precise atomic polarizabilities. Deep neural networks are a powerful machine learning approach that excel at discovering intricate relationships within data. By mimicking the learning processes found in biological organisms, they are ideally suited to find a new rule that could provide better weight constants for the KCD model.
+This rule have led to the KCD model’s notable accuracy. However, this accuracy can be further enhanced by identifying a more effective method for determining these weight constants, thereby yielding more precise atomic polarizabilities. Deep neural networks are a powerful machine learning approach that excel at discovering intricate relationships within data. By mimicking the learning processes found in biological organisms, they are ideally suited to find a new rule that could provide better weight constants for the KCD model.
 
 The effectiveness of a neural network heavily depends on matching its architecture to the structure and characteristics of the input data. A domain-specific understanding of the data is therefore crucial for designing or selecting an appropriate specialized neural architecture.
 
 In this work, the input features that determine the weight constants for atomic polarizabilities are represented as feature vectors lacking any inherent spatial or temporal dependencies. Therefore, our data is fundamentally tabular, a structure that can be effectively addressed by Bayesian Neural Networks (BNN), which will form the basis of the networks implemented in this study
 
-
+---
 
 ## KCD-AI
 
@@ -101,6 +101,7 @@ Each BNN then predicts its own disjoint subset of the weight constants. These fo
     <strong>Fig. 4.</strong> Conceptual workflow of the KCD-AI integration. (1) The secondary structure content of a protein (top left) is provided as input. (2) This is fed into the deep neural network framework (top right), which is represented here as a single block but conceptually consists of the four BNNs. (3) The BNNs output the 125 predicted weight constants. (4) The KCD model uses these constants to calculate the final CD spectrum (bottom left), which is then compared to the experimental spectrum.
 </div>
 
+---
 
 ## KCD-AI Performance
 
