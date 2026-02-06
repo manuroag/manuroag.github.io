@@ -23,7 +23,7 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 <figure class="text-center">
   <img src="/assets/img/thesis.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 680px;" 
+       style="width: 100%; max-width: 600px;" 
        alt="CD Spectroscopy">
 </figure>
 <div class="caption">
@@ -41,7 +41,7 @@ Computational prediction of CD spectra is particularly useful for comparing two 
 <figure class="text-center">
   <img src="/assets/img/validation.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 580px;" 
+       style="width: 100%; max-width: 500px;" 
        alt="CD model validation">
 </figure>
 <div class="caption">
@@ -92,17 +92,29 @@ Once the four Bayesian Neural Networks are trained, they are integrated into the
 
 Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in **Fig. 4.**, and is referred to as KCD-AI.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KCD_AI.png" title="KCD-AI" class="img-fluid rounded" %}
-    </div>
-</div>
+<figure class="text-center">
+  <img src="/assets/img/KCD_AI.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 680px;" 
+       alt="KCD AI Model">
+</figure>
 <div class="caption">
     <strong>Fig. 4.</strong> Conceptual workflow of the KCD-AI integration. (1) The secondary structure content of a protein (top left) is provided as input. (2) This is fed into the deep neural network framework (top right), which is represented here as a single block but conceptually consists of the four BNNs. (3) The BNNs output the 125 predicted weight constants. (4) The KCD model uses these constants to calculate the final CD spectrum (bottom left), which is then compared to the experimental spectrum.
 </div>
 
 ---
 
-## KCD-AI Performance
+## Impact on KCD Predictions
+
+We first evaluated the model on a test set of 50 proteins, comparing the performance of KCD-AI and KCD (**Fig. 5**). We computed the average NAD for KCD as 0.25±0.21 and for KCD-AI as 0.15±0.14. This represents a 40% reduction in the average prediction error.
+
+Additionally, the KCD-AI model provides a mean NAD and standard deviation for each protein, quantifying the reliability of its prediction. We note that proteins lacking significant α-helix content remain the most problematic, a common challenge for CD prediction models. However, KCD-AI successfully reduced the NAD for the majority of proteins compared to the original KCD.
 
 
+
+In addition to comparing KCD-AI with the original KCD, we benchmarked it against several state-of-the-art CD spectra prediction tools: PDBMD2CD, SESCA, and DichroCalc. We computed the NAD for predictions from all methods across the 50-protein test set (**Fig. 6**). The analysis found the following average NAD values:
+- KCD-AI: 0.15±0.14
+- PDBMD2CD (P2CD): 0.25±0.24
+- SESCA: 0.28±0.21
+- DichroCalc (DC): 0.49 ± 0.40
+KCD-AI demonstrated superior accuracy, achieving the lowest average prediction error on the test set.
