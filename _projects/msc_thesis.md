@@ -23,7 +23,7 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 <figure class="text-center">
   <img src="/assets/img/thesis.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 600px;" 
+       style="width: 100%; max-width: 500px;" 
        alt="CD Spectroscopy">
 </figure>
 <div class="caption">
@@ -52,19 +52,7 @@ Computational prediction of CD spectra is particularly useful for comparing two 
 
 ## The Knowledge-based Circular Dichroism (KCD) method
 
-The Knowledge-based Circular Dichroism (KCD) server utilizes a model based on the classical theory of optical activity with a complex set of atomic polarizabilities. These polarizabilities are obtained from a base of SRCD spectra and PDB structures from the PCDDB to predict far-UV CD spectra from the three-dimensional structural information of a target protein. This information includes the secondary structure content provided by the Structural Identification (STRIDE) algorithm and the atoms belonging to D-amino acid residues. The KCD server accepts a PDB file of the target protein as input and an optional spectrum file for normalization and comparison, which should be a simple two-column ASCII file (.dat or similar). The user is also required to provide their name and email address. The results are sent to the user via email and include a plot of the experimental and predicted spectra superimposed, a bar graph with the percentage content of secondary structures (alpha, beta, coils, and others) and D-residues, and the ASCII data file of the predicted spectrum.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KCD.png" title="KCD" class="img-fluid rounded" %}
-    </div>
-</div>
-<div class="caption">
-    <strong>Fig. 3.</strong> Workflow of the KCD server.
-    [Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>]
-</div>
-
-The KCD model predicts circular dichroism (CD) spectra by calculating suitable atomic polarizabilities using:
+The Knowledge-based Circular Dichroism (KCD) method utilizes a model based on the classical theory of optical activity with a complex set of atomic polarizabilities to predict far-UV CD spectra, which is described as follows:
 
 $$[o_p] = - \sum_{a,a'} \alpha_{ap} \alpha_{a'p} \langle C_{aa'}^{p} G_{aa'}^{p} \rangle_{\Omega}$$ 
 
@@ -80,7 +68,18 @@ This rule have led to the KCD model’s notable accuracy. However, this accuracy
 
 The effectiveness of a neural network heavily depends on matching its architecture to the structure and characteristics of the input data. A domain-specific understanding of the data is therefore crucial for designing or selecting an appropriate specialized neural architecture.
 
-In this work, the input features that determine the weight constants for atomic polarizabilities are represented as feature vectors lacking any inherent spatial or temporal dependencies. Therefore, our data is fundamentally tabular, a structure that can be effectively addressed by Bayesian Neural Networks (BNN), which will form the basis of the networks implemented in this study
+In this work, the input features that determine the weight constants for atomic polarizabilities are represented as feature vectors lacking any inherent spatial or temporal dependencies. Therefore, our data is fundamentally tabular, a structure that can be effectively addressed by Bayesian Neural Networks (BNN), which will form the basis of the networks implemented in this study.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/KCD.png" title="KCD" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Fig. 3.</strong> The KCD server workflow.
+    [Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>]
+</div>
+
 
 ---
 
@@ -137,3 +136,4 @@ KCD-AI demonstrated superior accuracy, achieving the lowest average prediction e
 <div class="caption">
     <strong>Fig. 6.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set, plotted as a function of protein α-helix content (%). The plot compares the performance of KCD-AI with three other state-of-the-art methods. KCD-AI results are shown as blue circles. PDBMD2CD (PDB2CD) results are shown as red squares. SESCA results are shown as green, upward-pointing triangles. DichroCalc (DC) results are shown as orange, downward-pointing triangles. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15±0.14), PDB2CD (red, 0.25±0.24), SESCA (green, 0.28±0.21), and DC (orange, 0.49±0.40). The y-axis is on a logarithmic scale.
 </div>
+
