@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AI-driven Prediction of Circular Dichroism Spectra of Proteins"
-description: My M.Sc. Thesis.
+description: My M.Sc. Thesis Overview.
 img: assets/img/thesis.png
 importance: 1
 category: independent
