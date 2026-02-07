@@ -73,7 +73,7 @@ In this work, the input features that determine the weight constants for atomic 
 <figure class="text-center">
   <img src="/assets/img/BNN.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 500px;" 
+       style="width: 100%; max-width: 600px;" 
        alt="BNN">
 </figure>
 <div class="caption">
@@ -90,7 +90,7 @@ To handle the complexity of predicting 125 weight constants from only 4 feature 
 
 Once the four Bayesian Neural Networks are trained, they are integrated into the KCD model to function as a single prediction engine. When a new protein _p_ is entered for analysis, its four secondary structure features are fed as input to all four BNNs simultaneously.
 
-Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in **Fig. 4.**, and is referred to as KCD-AI.
+Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in **Figure 4.**, and is referred to as KCD-AI.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -106,7 +106,7 @@ Each BNN then predicts its own disjoint subset of the weight constants. These fo
 
 ## Impact on KCD Predictions
 
-We first evaluated the model on a test set of 50 proteins, comparing the performance of KCD-AI and KCD (**Fig. 5**). We computed the average NAD for KCD as 0.25±0.21 and for KCD-AI as 0.15±0.14. This represents a 40% reduction in the average prediction error.
+We first evaluated the model on a test set of 50 proteins, comparing the performance of KCD-AI and KCD (**Fig. 5**). We computed the average NAD for KCD as 0.25 ± 0.21 and for KCD-AI as 0.15 ± 0.14. This represents a 40% reduction in the average prediction error.
 
 Additionally, the KCD-AI model provides a mean NAD and standard deviation for each protein, quantifying the reliability of its prediction. We note that proteins lacking significant α-helix content remain the most problematic, a common challenge for CD prediction models. However, KCD-AI successfully reduced the NAD for the majority of proteins compared to the original KCD.
 
@@ -121,10 +121,10 @@ Additionally, the KCD-AI model provides a mean NAD and standard deviation for ea
 </div>
 
 In addition to comparing KCD-AI with the original KCD, we benchmarked it against several state-of-the-art CD spectra prediction tools: PDBMD2CD, SESCA, and DichroCalc. We computed the NAD for predictions from all methods across the 50-protein test set (**Fig. 6**). The analysis found the following average NAD values:
-- KCD-AI: 0.15 ± 0.14
-- PDBMD2CD (P2CD): 0.25 ± 0.24
-- SESCA: 0.28 ± 0.21
-- DichroCalc (DC): 0.49 ± 0.40
+- **KCD-AI:** 0.15 ± 0.14
+- **PDBMD2CD (P2CD):** 0.25 ± 0.24
+- **SESCA:** 0.28 ± 0.21
+- **DichroCalc (DC):** 0.49 ± 0.40
 
 KCD-AI demonstrated superior accuracy, achieving the lowest average prediction error on the test set.
 
@@ -139,10 +139,10 @@ KCD-AI demonstrated superior accuracy, achieving the lowest average prediction e
 </div>
 
 In **Figure 7**, we show predictions for four representative proteins from the test set known to be challenging for CD prediction. Their secondary structure compositions are as follows:
-- 1SR5 (Antithrombin): ∼16% α-helix, ∼26% β-sheet, ∼20% coil
-- 3QTK (VEGF-A): ∼8% α-helix, ∼56% β-sheet, ∼16% coil
-- 5A37 (α-Actin-2): ∼44% α-helix, ∼2% β-sheet, ∼26% coil
-- 3GO0 (α-Defensin): ∼0% α-helix, ∼53% β-sheet, ∼17% coil
+- **1SR5 (Antithrombin):** ∼16% α-helix, ∼26% β-sheet, ∼20% coil
+- **3QTK (VEGF-A):** ∼8% α-helix, ∼56% β-sheet, ∼16% coil
+- **5A37 (α-Actin-2):** ∼44% α-helix, ∼2% β-sheet, ∼26% coil
+- **3GO0 (α-Defensin):** ∼0% α-helix, ∼53% β-sheet, ∼17% coil
 
 The protein 3GO0 is a particularly difficult case as it is composed entirely of D-amino acids. As shown in the figure, KCD-AI consistently provides superior performance, accurately predicting the spectra for these complex proteins. Notably, it is the only method to successfully predict the spectrum for the all-D-amino-acid protein, a case where all other benchmarked methods fail.
 
