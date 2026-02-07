@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an M.Sc. in Statistical Physics at [Cinvestav](https://cinvestav.mx/), in Mexico City, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
+I am a recent graduate of the M.Sc. in Statistical Physics program at [Cinvestav](https://cinvestav.mx/) in Mexico City, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
 
 My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Statistical Physics, with a focus on developing computational tools for biological applications.
 
@@ -44,7 +44,7 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
   </div>
 </div>
 
-My Master's thesis (see [projects](https://manuroag.github.io/projects/)) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
+My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also [projects](https://manuroag.github.io/projects/)) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -56,7 +56,9 @@ My Master's thesis (see [projects](https://manuroag.github.io/projects/)) focuse
     <strong>Fig. 1.</strong> KCD-AI workflow: Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
 
-Beyond my thesis, I actively seek opportunities to expand my computational and interdisciplinary research skills, including participation in summer schools and specialized courses. I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in Computational Biophysics, AI-driven Scientific Discovery, Drug and Materials Discovery, or related fields.
+I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in Computational Biophysics, Protein Science, Molecular Dynamics, Force Fields, AI-driven Scientific Discovery, or Drug and Materials Discovery.
+
+For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
 
 <figure class="text-center">
   <img src="/assets/img/Interests.png" 
@@ -65,7 +67,5 @@ Beyond my thesis, I actively seek opportunities to expand my computational and i
        alt="Molecular Dynamics and AI-driven Drug Discovery">
 </figure>
 <div class="caption">
-    Credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Graphwise</a>.
+    [Images credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Graphwise</a>.]
 </div>
-
-For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
