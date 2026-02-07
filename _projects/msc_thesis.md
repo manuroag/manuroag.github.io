@@ -72,12 +72,12 @@ In this work, the input features that determine the weight constants for atomic 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KCD.png" title="KCD" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/BNN.png" title="BNN" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    <strong>Fig. 3.</strong> The KCD server workflow.
-    [Credit: <a href='https://doi.org/10.1002/slct.202300408'>Takashi Misawa, Yokuse Demizu.</a> & <a href='https://doi.org/10.1002/pro.4967'>Jacinto Méndez, D. et al.</a>]
+    <strong>Fig. 3.</strong> (a) Point estimate neural network, (b) Bayesian neural network with a probability distribution over the weights. Bayesian Neural Networks (BNNs) are stochastic neural networks that leverage Bayesian inference. Instead of learning a single set of optimal weights, BNNs treat the weights, θ, as random variables with associated probability distributions, p(θ). This process simulates an ensemble of multiple possible models. Just as an ensemble of independent, average-performing predictors can outperform a single well-performing model, BNNs provide robust predictions and, crucially, quantify the model’s inherent uncertainty.
+    [Credit: <a href='https://arxiv.org/pdf/2007.06823'>Laurent Valentin Jospin et al.</a>]
 </div>
 
 
@@ -116,13 +116,13 @@ Additionally, the KCD-AI model provides a mean NAD and standard deviation for ea
        alt="KCD AI vs KCD">
 </figure>
 <div class="caption">
-    <strong>Fig. 5.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set, plotted as a function of protein α-helix content (%). The results for the KCD-AI model are shown as blue circles (mean) with their corresponding standard deviations (error bars). The results for the original KCD method are shown as sienna stars. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15±0.14) and KCD (sienna, 0.25±0.21). The y-axis is on a logarithmic scale.
+    <strong>Fig. 5.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set, plotted as a function of protein α-helix content (%). The results for the KCD-AI model are shown as blue circles (mean) with their corresponding standard deviations (error bars). The results for the original KCD method are shown as sienna stars. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15 ± 0.14) and KCD (sienna, 0.25 ± 0.21). The y-axis is on a logarithmic scale.
 </div>
 
 In addition to comparing KCD-AI with the original KCD, we benchmarked it against several state-of-the-art CD spectra prediction tools: PDBMD2CD, SESCA, and DichroCalc. We computed the NAD for predictions from all methods across the 50-protein test set (**Fig. 6**). The analysis found the following average NAD values:
-- KCD-AI: 0.15±0.14
-- PDBMD2CD (P2CD): 0.25±0.24
-- SESCA: 0.28±0.21
+- KCD-AI: 0.15 ± 0.14
+- PDBMD2CD (P2CD): 0.25 ± 0.24
+- SESCA: 0.28 ± 0.21
 - DichroCalc (DC): 0.49 ± 0.40
 
 KCD-AI demonstrated superior accuracy, achieving the lowest average prediction error on the test set.
@@ -134,6 +134,23 @@ KCD-AI demonstrated superior accuracy, achieving the lowest average prediction e
        alt="KCD AI vs Others">
 </figure>
 <div class="caption">
-    <strong>Fig. 6.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set, plotted as a function of protein α-helix content (%). The plot compares the performance of KCD-AI with three other state-of-the-art methods. KCD-AI results are shown as blue circles. PDBMD2CD (PDB2CD) results are shown as red squares. SESCA results are shown as green, upward-pointing triangles. DichroCalc (DC) results are shown as orange, downward-pointing triangles. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15±0.14), PDB2CD (red, 0.25±0.24), SESCA (green, 0.28±0.21), and DC (orange, 0.49±0.40). The y-axis is on a logarithmic scale.
+    <strong>Fig. 6.</strong> Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set, plotted as a function of protein α-helix content (%). The plot compares the performance of KCD-AI with three other state-of-the-art methods. KCD-AI results are shown as blue circles. PDBMD2CD (PDB2CD) results are shown as red squares. SESCA results are shown as green, upward-pointing triangles. DichroCalc (DC) results are shown as orange, downward-pointing triangles. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15 ± 0.14), PDB2CD (red, 0.25 ± 0.24), SESCA (green, 0.28 ± 0.21), and DC (orange, 0.49 ± 0.40). The y-axis is on a logarithmic scale.
 </div>
 
+In **Figure 7**, we show predictions for four representative proteins from the test set known to be challenging for CD prediction. Their secondary structure compositions are as follows:
+- 1SR5 (Antithrombin): ∼16% α-helix, ∼26% β-sheet, ∼20% coil
+- 3QTK (VEGF-A): ∼8% α-helix, ∼56% β-sheet, ∼16% coil
+- 5A37 (α-Actin-2): ∼44% α-helix, ∼2% β-sheet, ∼26% coil
+- 3GO0 (α-Defensin): ∼0% α-helix, ∼53% β-sheet, ∼17% coil
+
+The protein 3GO0 is a particularly difficult case as it is composed entirely of D-amino acids. As shown in the figure, KCD-AI consistently provides superior performance, accurately predicting the spectra for these complex proteins. Notably, it is the only method to successfully predict the spectrum for the all-D-amino-acid protein, a case where all other benchmarked methods fail.
+
+<figure class="text-center">
+  <img src="/assets/img/KCDAIvsOthers.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 600px;" 
+       alt="KCD AI vs Others">
+</figure>
+<div class="caption">
+    <strong>Fig. 7.</strong> Comparison of predicted vs. experimental CD spectra for four proteins from the test set: 1SR5 (Antithrombin), 3QTK (VEGF-A), 5A37 (α-Actin-2), and the all-D-amino-acid protein 3GO0 (α-Defensin). Each panel plots the molar ellipticity per residue ([θ]/Nr) as a function of wavelength (λ). The experimental SRCD spectrum (Exp, red circles) is compared against four prediction methods: KCD-AI (solid blue line), PDBMD2CD (P2CD, solid thick gray line), SESCA (solid thin gray line), and DichroCalc (DC, dotted gray line).
+</div>
