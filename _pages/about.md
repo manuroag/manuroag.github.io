@@ -58,8 +58,6 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
 
 I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in Computational Biophysics, Protein Science, Molecular Dynamics, Force Fields, AI-driven Scientific Discovery, or Drug and Materials Discovery.
 
-For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
-
 <figure class="text-center">
   <img src="/assets/img/Interests.png" 
        class="img-fluid rounded"
@@ -69,3 +67,5 @@ For more details on my projects and academic journey, please see my [CV](/assets
 <div class="caption">
     [Images credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Graphwise</a>.]
 </div>
+
+For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
