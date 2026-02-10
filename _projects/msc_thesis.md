@@ -12,7 +12,7 @@ related_publications: false
 
 ---
 
-## Circular Dichroism (CD)
+## What is Circular Dichroism (CD)?
 
 An important property of the amino acids that compose proteins is chirality. A molecule is chiral when it is not superimposable on its mirror image (**Fig. 1**). Chirality in amino acids arises from the presence of an asymmetric carbon, a carbon atom tetrahedrally bonded to four different atoms or groups. Glycine, which has a hydrogen atom as its side chain, is the only achiral amino acid.
 
@@ -52,7 +52,7 @@ Computational prediction of CD spectra is particularly useful for comparing two 
 
 ## The Knowledge-based Circular Dichroism (KCD) method
 
-The Knowledge-based Circular Dichroism (KCD) method utilizes a model based on the classical theory of optical activity with a complex set of atomic polarizabilities to predict far-UV CD spectra, which is described as follows:
+The Knowledge-based Circular Dichroism (KCD) method utilizes a model based on the classical theory of optical activity with a complex set of atomic polarizabilities, _α_, to predict far-UV CD spectra, which corresponds to the imaginary part of optical activity:
 
 $$[o_p] = - \sum_{a,a'} \alpha_{ap} \alpha_{a'p} \langle C_{aa'}^{p} G_{aa'}^{p} \rangle_{\Omega}$$ 
 
@@ -60,11 +60,15 @@ where
 
 $$\alpha_{ap} = \sum_b c_{bp} \alpha_{ab}.$$
 
-The weight constants in this equation, are determined by the rule of proximity:
+The weight constants, _c_, in this equation, are determined by the rule of proximity:
 
 $$c_{bp} = 100\exp{\left( \frac{-50[|s_{\alpha b} - s_{\alpha p}| + |s_{\beta b} - s_{\beta p}| + |s_{cb} - s_{cp}| + |s_{ob} - s_{op}|]}{\tau} \right)}$$ 
 
 This rule have led to the KCD model’s notable accuracy. However, this accuracy can be further enhanced by identifying a more effective method for determining these weight constants, thereby yielding more precise atomic polarizabilities. Deep neural networks are a powerful machine learning approach that excel at discovering intricate relationships within data. By mimicking the learning processes found in biological organisms, they are ideally suited to find a new rule that could provide better weight constants for the KCD model.
+
+---
+
+## Bayesian Neural Networks (BNN)
 
 The effectiveness of a neural network heavily depends on matching its architecture to the structure and characteristics of the input data. A domain-specific understanding of the data is therefore crucial for designing or selecting an appropriate specialized neural architecture.
 
@@ -155,3 +159,15 @@ The protein 3GO0 is a particularly difficult case as it is composed entirely of 
 <div class="caption">
     <strong>Fig. 7. Comparison of predicted vs. experimental CD spectra for four proteins from the test set.</strong> 1SR5 (Antithrombin), 3QTK (VEGF-A), 5A37 (α-Actin-2), and the all-D-amino-acid protein 3GO0 (α-Defensin). Each panel plots the molar ellipticity per residue ([θ]/Nr) as a function of wavelength (λ). The experimental SRCD spectrum (Exp, red circles) is compared against four prediction methods: KCD-AI (solid blue line), PDBMD2CD (P2CD, solid thick gray line), SESCA (solid thin gray line), and DichroCalc (DC, dotted gray line).
 </div>
+
+---
+
+## Conclusions
+
+- We have successfully developed KCD-AI, the first model to integrate deep learning into the KCD framework. This refined computational model offers a powerful new tool for the structural characterization of proteins, improving predictive accuracy on average by 40% with respect to the original KCD.
+
+- A key methodological advance of KCD-AI is its use of Bayesian Neural Networks, which provide a quantitative measure of uncertainty (i.e., a standard deviation) for each prediction. This allows researchers to not only see the predicted spectrum but also to assess the model’s "confidence", a feature absent in the original KCD and other deterministic methods.
+
+- While KCD-AI demonstrated significant improvement on average, its performance was not uniform. For a small subset of proteins, its predictive accuracy was comparable to the original KCD, and in a few isolated cases, its predictions were less accurate than the original method.
+
+- This highlights key areas for future research. First, a detailed analysis of these challenging cases is required to further refine the model. Second, expanding the training dataset is key to unlocking the full predictive power of our deep learning architecture. Finally, this work also served to identify fundamental limitations in the original KCD model itself. Addressing these underlying limitations will be crucial for building a stronger foundation for all future enhancements of the KCD method, including KCD-AI.
