@@ -110,7 +110,7 @@ Each BNN then predicts its own disjoint subset of the weight constants. These fo
 
 ## Impact on KCD Predictions
 
-##### KCD-AI vs The Original KCD
+#### KCD-AI vs The Original KCD
 
 We first evaluated the model on a test set of 50 proteins, comparing the performance of KCD-AI and KCD (**Fig. 5**). We computed the average NAD for KCD as 0.25 ± 0.21 and for KCD-AI as 0.15 ± 0.14. This represents a 40% reduction in the average prediction error.
 
@@ -126,7 +126,7 @@ Additionally, the KCD-AI model provides a mean NAD and standard deviation for ea
     <strong>Fig. 5. Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set between KCD-AI and KCD, plotted as a function of protein α-helix content (%).</strong> The results for the KCD-AI model are shown as blue circles (mean) with their corresponding standard deviations (error bars). The results for the original KCD method are shown as sienna stars. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15 ± 0.14) and KCD (sienna, 0.25 ± 0.21). The y-axis is on a logarithmic scale.
 </div>
 
-##### KCD-AI vs State-of-The-Art Methods
+#### KCD-AI vs State-of-The-Art Methods
 
 In addition to comparing KCD-AI with the original KCD, we benchmarked it against several state-of-the-art CD spectra prediction tools: PDBMD2CD, SESCA, and DichroCalc. We computed the NAD for predictions from all methods across the 50-protein test set (**Fig. 6**). The analysis found the following average NAD values:
 - **KCD-AI:** 0.15 ± 0.14
@@ -146,7 +146,7 @@ KCD-AI demonstrated superior accuracy, achieving the lowest average prediction e
     <strong>Fig. 6. Comparison of the Normalized Absolute Deviation (NAD) for CD spectra predictions per protein in the test set between KCD-AI and other methods, plotted as a function of protein α-helix content (%).</strong> The plot compares the performance of KCD-AI with three other state-of-the-art methods. KCD-AI results are shown as blue circles. PDBMD2CD (PDB2CD) results are shown as red squares. SESCA results are shown as green, upward-pointing triangles. DichroCalc (DC) results are shown as orange, downward-pointing triangles. The solid lines indicate the average NAD for each method: KCD-AI (blue, 0.15 ± 0.14), PDB2CD (red, 0.25 ± 0.24), SESCA (green, 0.28 ± 0.21), and DC (orange, 0.49 ± 0.40). The y-axis is on a logarithmic scale.
 </div>
 
-##### CD Spectra Predictions for Complex Cases
+#### CD Spectra Predictions for Complex Cases
 
 In **Figure 7**, we show predictions for four representative proteins from the test set known to be challenging for CD prediction. Their secondary structure compositions are as follows:
 - **1SR5 (Antithrombin):** ∼16% α-helix, ∼26% β-sheet, ∼20% coil
