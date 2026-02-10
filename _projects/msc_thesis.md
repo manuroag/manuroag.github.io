@@ -23,7 +23,7 @@ Circular Dichroism (CD) spectroscopy is a versatile and rapid method for charact
 <figure class="text-center">
   <img src="/assets/img/thesis.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 500px;" 
+       style="width: 100%; max-width: 580px;" 
        alt="CD Spectroscopy">
 </figure>
 <div class="caption">
@@ -52,7 +52,7 @@ Computational prediction of CD spectra is particularly useful for comparing two 
 
 ## The Knowledge-based Circular Dichroism (KCD) method
 
-The Knowledge-based Circular Dichroism (KCD) method utilizes a model based on the classical theory of optical activity with a complex set of atomic polarizabilities, _α_, to predict far-UV CD spectra, which corresponds to the imaginary part of optical activity:
+The Knowledge-based Circular Dichroism (KCD) method utilizes a model based on the classical theory of optical activity with a complex set of atomic polarizabilities, **α**, to predict far-UV CD spectra, which corresponds to the imaginary part of the equation:
 
 $$[o_p] = - \sum_{a,a'} \alpha_{ap} \alpha_{a'p} \langle C_{aa'}^{p} G_{aa'}^{p} \rangle_{\Omega}$$ 
 
@@ -60,7 +60,7 @@ where
 
 $$\alpha_{ap} = \sum_b c_{bp} \alpha_{ab}.$$
 
-The weight constants, _c_, in this equation, are determined by the rule of proximity:
+The weight constants, _**c**_, in this equation, are determined by the rule of proximity:
 
 $$c_{bp} = 100\exp{\left( \frac{-50[|s_{\alpha b} - s_{\alpha p}| + |s_{\beta b} - s_{\beta p}| + |s_{cb} - s_{cp}| + |s_{ob} - s_{op}|]}{\tau} \right)}$$ 
 
@@ -94,7 +94,7 @@ To handle the complexity of predicting 125 weight constants from only 4 feature 
 
 Once the four Bayesian Neural Networks are trained, they are integrated into the KCD model to function as a single prediction engine. When a new protein _p_ is entered for analysis, its four secondary structure features are fed as input to all four BNNs simultaneously.
 
-Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in **Figure 4.**, and is referred to as KCD-AI.
+Each BNN then predicts its own disjoint subset of the weight constants. These four partial outputs are concatenated, reassembling the complete 125-dimensional vector of predicted weight constants. This final vector is then used by the KCD model to perform the usual computations and calculate the protein’s CD spectrum. This complete workflow is illustrated in **Figure 4**, and is referred to as KCD-AI.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
