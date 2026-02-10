@@ -69,3 +69,5 @@ I thrive in collaborative environments and am eager to contribute my background 
 </div>
 
 For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
+
+---
