@@ -53,19 +53,3 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
-
-// ---------------------------------------------------------
-//  Increase base font size and container widths by X%
-// ---------------------------------------------------------
-
-$site-scale: 1.25;  // ← change this number whenever you want
-
-$font-size-base: #{$site-scale}rem !default;
-
-$container-max-widths: (
-  sm: 540px * $site-scale,
-  md: 720px * $site-scale,
-  lg: 960px * $site-scale,
-  xl: 1140px * $site-scale,
-  wd: 1140px * $site-scale
-) !default;

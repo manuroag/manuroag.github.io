@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. in Statistical Physics | Data Scientist | AI Engineer 
+subtitle: M.Sc. in Statistical Physics | Artificial Intelligence | Computational Biophysics
 
 profile:
   align: right
@@ -70,4 +70,4 @@ I thrive in collaborative environments and am eager to contribute my background 
 
 For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
 
----
+---  
