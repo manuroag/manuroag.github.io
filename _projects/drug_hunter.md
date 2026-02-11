@@ -36,7 +36,7 @@ Using `rdkit`, we convert raw SMILES strings into **Graph Objects**:
 
 <figure class="text-center">
   <img src="/assets/img/drug_hunter1.png" 
-       class="img-fluid rounded z-depth-1"
+       class="img-fluid rounded"
        style="width: 100%; max-width: 580px;" 
        alt="GNN">
 </figure>
