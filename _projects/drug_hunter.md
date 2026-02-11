@@ -34,11 +34,12 @@ Using `rdkit`, we convert raw SMILES strings into **Graph Objects**:
 - **Nodes (`V`):** Represent atoms (Carbon, Oxygen, Nitrogen).
 - **Edges (`E`):** Represent chemical bonds (Single, Double, Aromatic).
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drug_hunter1.png" title="Radius of gyration visualization" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+<figure class="text-center">
+  <img src="/assets/img/drug_hunter1.png" 
+       class="img-fluid rounded z-depth-1"
+       style="width: 100%; max-width: 580px;" 
+       alt="GNN">
+</figure>
 <div class="caption">
     Credit: <a href='https://www.researchgate.net/figure/Modelling-a-molecule-as-a-graph-Individual-atoms-and-ring-structures-are-mapped-to_fig1_330845050'>Hernandez, Maritza, et al.</a>
 </div>
