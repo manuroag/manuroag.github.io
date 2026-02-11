@@ -41,7 +41,7 @@ Using `rdkit`, we convert raw SMILES strings into **Graph Objects**:
        alt="GNN">
 </figure>
 <div class="caption">
-    Credit: <a href='https://www.researchgate.net/figure/Modelling-a-molecule-as-a-graph-Individual-atoms-and-ring-structures-are-mapped-to_fig1_330845050'>Hernandez, Maritza, et al.</a>
+    [Credit: <a href='https://www.researchgate.net/figure/Modelling-a-molecule-as-a-graph-Individual-atoms-and-ring-structures-are-mapped-to_fig1_330845050'>Hernandez, Maritza, et al.</a>
 </div>
 
 This allows the model to learn spatial and connectivity patterns that drive chemical reactivity.
