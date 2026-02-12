@@ -19,7 +19,8 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
+  --global-back-to-top-bg-color: #{$green-color-test};
+  --global-back-to-top-bg-color2: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
     #{color.channel($black-color, "blue", $space: rgb)},
@@ -43,8 +44,8 @@
   --global-danger-block-title: #c00;
 
   #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
+    padding-left: 20px;
+    padding-top: 22px;
     display: block;
   }
 
