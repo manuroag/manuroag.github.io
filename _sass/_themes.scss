@@ -12,12 +12,12 @@
   --global-theme-color: #{$green-color-test};
   --global-hover-color: #{$green-color-test};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
+  --global-footer-bg-color: #{$green-footer-palette};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$green-bg-palette};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: #{$light-green-color};
   --global-back-to-top-bg-color2: rgba(
@@ -89,8 +89,8 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: #{$code-bg-color-light};
-  --global-back-to-top-bg-color2: rgba(
+  --global-back-to-top-bg-color2: #{$code-bg-color-light};
+  --global-back-to-top-bg-color1: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
     #{color.channel($white-color, "blue", $space: rgb)},
