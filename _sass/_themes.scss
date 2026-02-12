@@ -19,7 +19,7 @@
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$green-bg-palette};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: #{$light-green-color};
+  --global-back-to-top-bg-color: #{$green-color-test};
   --global-back-to-top-bg-color2: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
