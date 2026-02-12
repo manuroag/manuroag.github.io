@@ -21,7 +21,7 @@ The radius of gyration is a fundamental scalar quantity that characterizes the *
 - Polymer physics
 - Protein folding and compaction analysis
 
-For a protein with atomic coordinates R_i and center of mass R_{CM}, the radius of gyration is defined as:
+For a protein with atomic coordinates *R_i* and center of mass *R_{CM}*, the radius of gyration is defined as:
 
 $${R_g}^2 = \sum_{i=1}^{N} (R_i - R_{CM} )^2 / N + \frac{3}{5} R^2 $$
 
