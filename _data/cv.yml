@@ -10,7 +10,7 @@
     - name: email
       value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
     - name: Research Interests
-      value: Computational Biophysics, Force Fields, MD, AI-driven Scientific Discovery, Drug and Materials Discovery, Protein Design, Statistical Physics.
+      value: Computational Biophysics, Force Fields, MD, AI-driven Scientific Discovery, Drug and Materials Discovery, Protein Design, Statistical Physics
     - name: Languages
       value: Spanish (Native), English (C1, IELTS 7.5), French (B1), German (A1)
 
