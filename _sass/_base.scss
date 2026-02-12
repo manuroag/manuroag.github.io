@@ -481,7 +481,7 @@ footer.sticky-bottom {
       border-color: var(--global-divider-color);
 
       .badge {
-        color: var(--global-card-bg-color) !important;
+        color: var(--global-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
     }
@@ -902,7 +902,7 @@ progress {
 
   /* Dimensions */
   width: 100%;
-  height: 3px;
+  height: 4px;
 
   /* Reset the appearance */
   -webkit-appearance: none;
