@@ -5,21 +5,21 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$blue-color-palette};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$green-color-test};
   --global-hover-color: #{$green-color-test};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$green-footer-palette};
+  --global-footer-bg-color: #{$blue-color-palette4};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$code-bg-color-light};
+  --global-card-bg-color: #{$blue-color-palette2};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: #{$green-footer-palette};
+  --global-back-to-top-bg-color: #{$blue-color-palette4};
   --global-back-to-top-bg-color2: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
@@ -89,7 +89,7 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$code-bg-color-dark};
-  --global-back-to-top-bg-color2: #{$orange-color2};
+  --global-back-to-top-bg-color2: #{$green-footer-palette-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
