@@ -12,14 +12,15 @@
   --global-theme-color: #{$green-color-test};
   --global-hover-color: #{$green-color-test};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$blue-color-palette3};
+  --global-footer-bg-color: #{$blue-color-palette4};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$blue-color-palette2};
+  --global-card-bg-color: #{$code-bg-color-light};
+  --global-navbar-bg-color: #{$blue-color-palette3};
   --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: #{$blue-color-palette3};
+  --global-back-to-top-bg-color: #{$blue-color-palette4};
   --global-back-to-top-bg-color2: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
