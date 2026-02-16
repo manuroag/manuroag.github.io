@@ -23,7 +23,7 @@
       description:
         - title: "Thesis: AI-driven Prediction of Circular Dichroism Spectra of Proteins"
           contents:
-          - "Advisors: Dr. Mauricio Demetrio Carbajal-Tinoco and Dr. Damián Jacinto-Méndez"
+          - "Advisor: Dr. Damián Jacinto-Méndez"
           - "Focus: Integration of Deep Bayesian Neural Networks with the theoretical KCD method"
         - "GPA: 9.1/10"
     - title: BSc in Physics and Mathematics

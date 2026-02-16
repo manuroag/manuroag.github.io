@@ -56,7 +56,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
     <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
 
-I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in Computational Biophysics, Protein Science, Molecular Dynamics, Force Fields, AI-driven Scientific Discovery, or Drug and Materials Discovery.
+I thrive in collaborative environments and am eager to contribute my background in Statistical Physics and Machine Learning to a research group tackling challenges in Computational Biophysics, Protein Science, Molecular Dynamics, Force Fields, AI-driven Scientific Discovery, or Drug and Materials Discovery.
 
 <figure class="text-center">
   <img src="/assets/img/Interests.png" 
@@ -68,6 +68,6 @@ I thrive in collaborative environments and am eager to contribute my background 
     [Images credit: <a href='https://www.ff4eurohpc.eu/en/success-stories/2023093013560378/molecular_dynamics_simulations_for_new_battery_materials_development'>FF4EuroHPC</a> and <a href='https://graphwise.ai/blog/accelerating-drug-discovery-with-ai-based-gene-disease-link-predictions/'>Graphwise</a>.]
 </div>
 
-For more details on my projects and academic journey, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilarFeb2026.pdf) or reach out via [email](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research
+For more details on my projects and academic journey, please see my [**CV**](/assets/pdf/CV_JoseManuelRoblesAguilarFeb2026.pdf) or reach out via [**email**](mailto:jose.robles@cinvestav.mx). I’d love to discuss how my skills align with your lab’s research!
 
 ---  
