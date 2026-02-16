@@ -84,14 +84,14 @@ html[data-theme="dark"] {
   --global-theme-color: #{$green-color-bright};
   --global-hover-color: #{$green-color-bright};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$green-footer-palette-dark3};
+  --global-footer-bg-color: #{$green-footer-palette-dark4};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$green-card-palette-dark3};
-  --global-navbar-bg-color: #{$green-navbar-palette-dark3};
-  --global-back-to-top-bg-color2: #{$green-footer-palette-dark3};
+  --global-card-bg-color: #{$green-card-palette-dark4};
+  --global-navbar-bg-color: #{$green-navbar-palette-dark4};
+  --global-back-to-top-bg-color2: #{$green-footer-palette-dark4};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
