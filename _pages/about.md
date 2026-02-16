@@ -53,7 +53,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
        alt="KCD AI Model">
 </figure>
 <div class="caption">
-    <strong>Fig. 1.</strong> KCD-AI workflow: Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
+    <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
 
 I thrive in collaborative environments and am eager to contribute my background in statistical physics and machine learning to a research group tackling challenges in Computational Biophysics, Protein Science, Molecular Dynamics, Force Fields, AI-driven Scientific Discovery, or Drug and Materials Discovery.

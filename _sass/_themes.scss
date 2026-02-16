@@ -89,9 +89,9 @@ html[data-theme="dark"] {
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$green-card-palette-dark};
-  --global-navbar-bg-color: #{$green-navbar-palette-dark};
-  --global-back-to-top-bg-color2: #{$green-footer-palette-dark};
+  --global-card-bg-color: #{$green-card-palette-dark2};
+  --global-navbar-bg-color: #{$green-navbar-palette-dark2};
+  --global-back-to-top-bg-color2: #{$green-footer-palette-dark2};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
