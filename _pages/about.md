@@ -64,7 +64,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
 
 #### Current Research
 
-**G-Protein-Coupled Receptors (GPCRs)**
+1. **G-Protein-Coupled Receptors (GPCRs)**
 
 I am currently investigating a mutation in the human H2 receptor (hH2R) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience](https://www.fisio.cinvestav.mx/) at Cinvestav.
 
@@ -78,11 +78,11 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) using Mo
     <strong>Fig. 2. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
 </div>
 
-**AI-driven Drug Discovery**
+2. **AI-driven Drug Discovery**
 
 Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs), and exploring anomaly detection and clustering within MD trajectories.
 
-**Membranes**
+3. **Membranes**
 
 Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion, and Lipid Nanoparticles (LNPs), which will form the primary focus of my upcoming projects.
 
