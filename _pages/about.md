@@ -44,7 +44,9 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
   </div>
 </div>
 
-### Past Research
+---
+
+#### Past Research
 
 My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also [projects](https://manuroag.github.io/projects/)) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
@@ -58,7 +60,9 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
     <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
 
-### Current Research
+---
+
+#### Current Research
 
 I am currently investigating a mutation in the human H2 receptor (hH2R) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience](https://www.fisio.cinvestav.mx/) at Cinvestav.
 
@@ -66,7 +70,9 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 
 Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion, and Lipid Nanoparticles (LNPs), which will form the primary focus of my upcoming projects.
 
-### Open to PhD Opportunities
+---
+
+#### Open to PhD Opportunities
 
 Building on my recent graduate work, I am currently seeking a PhD position in a highly collaborative environment. I am eager to bring my combined expertise in Statistical Physics and Machine Learning to a dynamic research group tackling complex challenges in Computational Biophysics, Protein Science, and AI-driven Scientific Discovery.
 
