@@ -46,7 +46,7 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
 
 ---
 
-#### Past Research
+### Past Research
 
 My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also [projects](https://manuroag.github.io/projects/)) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
@@ -62,7 +62,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
 
 ---
 
-#### Current Research
+### Current Research
 
 ##### G-Protein-Coupled Receptors (GPCRs)
 
