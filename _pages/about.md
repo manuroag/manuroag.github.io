@@ -50,7 +50,7 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
 
 #### AI-driven CD Spectra Prediction
 
-My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also [projects](https://manuroag.github.io/projects/)) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
+My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -64,7 +64,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
 
 #### G-Protein-Coupled Receptors (GPCRs)
 
-I am currently investigating a mutation in the human H2 receptor (hH2R) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience](https://www.fisio.cinvestav.mx/) at Cinvestav.
+I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig 2**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience](https://www.fisio.cinvestav.mx/) at Cinvestav.
 
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 
@@ -78,12 +78,12 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) using Mo
 
 #### AI-driven Drug Discovery
 
-Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs), and exploring anomaly detection and clustering within MD trajectories.
+Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 3**), and exploring anomaly detection and clustering within MD trajectories.
 
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 620px;" 
+       style="width: 100%; max-width: 640px;" 
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
@@ -92,12 +92,12 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 
 #### Viral Fusion and Lipid-based Nanocarriers
 
-Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion, and Lipid-based Nanocarriers (LNCs), which will form the primary focus of my upcoming projects.
+Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion (**fig. 4**), and Lipid-based Nanocarriers (LNCs) (**fig. 5**), which will form the primary focus of my upcoming projects.
 
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 690px;" 
+       style="width: 100%; max-width: 700px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
@@ -107,13 +107,12 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 <figure class="text-center">
   <img src="/assets/img/LNCs.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 690px;" 
+       style="width: 100%; max-width: 630px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
     <strong>Fig. 5. Structure of lipid nanoparticle and liposome.</strong> [Credit: <a href='https://pubs.acs.org/doi/full/10.1021/acs.molpharmaceut.4c00744'>Paloncýová, M. et al.</a>]
 </div>
-
 
 ---
 
