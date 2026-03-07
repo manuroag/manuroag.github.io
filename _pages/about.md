@@ -92,7 +92,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 
 #### Viral Fusion and Lipid-based Nanocarriers
 
-Having developed a special interest in membrane dynamics, I am actively exploring literature on Peptide/Protein Design, Viral Fusion (**fig. 4**), and Lipid-based Nanocarriers (LNCs) (**fig. 5**), which will form the primary focus of my upcoming projects.
+Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion (**fig. 4**), and Lipid-based Nanocarriers (LNCs) (**fig. 5**), which will form the primary focus of my upcoming projects.
 
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
