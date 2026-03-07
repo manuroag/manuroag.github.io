@@ -46,7 +46,9 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
 
 ---
 
-### Past Research
+### Research
+
+##### AI-driven CD Spectra Prediction
 
 My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also [projects](https://manuroag.github.io/projects/)) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**Fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model. This work not only strengthened my expertise in PyTorch, data-driven modeling, and scientific computing but also reinforced my ability to translate theoretical concepts into practical tools, a skill I aim to further develop in my PhD.
 
@@ -59,10 +61,6 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
 <div class="caption">
     <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
-
----
-
-### Current Research
 
 ##### G-Protein-Coupled Receptors (GPCRs)
 
@@ -81,6 +79,16 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) using Mo
 ##### AI-driven Drug Discovery
 
 Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs), and exploring anomaly detection and clustering within MD trajectories.
+
+<figure class="text-center">
+  <img src="/assets/img/GCN.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 680px;" 
+       alt="Human H2 Receptor">
+</figure>
+<div class="caption">
+    <strong>Fig. 3. Illustration of the graph convolutional network for prediction of binding affinity from molecular structure.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
+</div>
 
 ##### Membranes
 
