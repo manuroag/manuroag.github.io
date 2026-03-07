@@ -78,7 +78,7 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 
 
 #### AI-driven Drug Discovery
 
-Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 3**), and exploring anomaly detection and clustering within MD trajectories.
+Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 3**), and exploring literature on Peptide/Protein Design.
 
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
