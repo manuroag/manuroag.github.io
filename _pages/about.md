@@ -55,7 +55,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) (see also 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 680px;" 
+       style="width: 100%; max-width: 670px;" 
        alt="KCD AI Model">
 </figure>
 <div class="caption">
@@ -69,7 +69,7 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) using Mo
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 600px;" 
+       style="width: 100%; max-width: 590px;" 
        alt="Human H2 Receptor">
 </figure>
 <div class="caption">
@@ -83,7 +83,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 680px;" 
+       style="width: 100%; max-width: 620px;" 
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
@@ -97,11 +97,21 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 680px;" 
+       style="width: 100%; max-width: 690px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
     <strong>Fig. 4. Illustration of the viral fusion event.</strong> [Credit: <a href='https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.689006/full'>Lozada, C. et al.</a>]
+</div>
+
+<figure class="text-center">
+  <img src="/assets/img/LNCs.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 690px;" 
+       alt="Viral Fusion">
+</figure>
+<div class="caption">
+    <strong>Fig. 5. Structure of lipid nanoparticle and liposome.</strong> [Credit: <a href='https://pubs.acs.org/doi/full/10.1021/acs.molpharmaceut.4c00744'>Paloncýová, M. et al.</a>]
 </div>
 
 
