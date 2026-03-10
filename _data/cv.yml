@@ -4,13 +4,13 @@
     - name: Full Name
       value: José Manuel Robles Aguilar
     - name: Title
-      value: M.Sc. in Statistical Physics | Data Scientist | AI Engineer
+      value: M.Sc. in Statistical Physics
     - name: Institution
-      value: Department of Physics, Cinvestav, Mexico City
+      value: Department of Physics, Cinvestav
     - name: email
       value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
     - name: Research Interests
-      value: Computational Biophysics, Force Fields, MD, AI-driven Scientific Discovery, Drug and Materials Discovery, Protein Design, Statistical Physics
+      value: Computational Biophysics, Molecular Dynamics (MD), AI-driven Scientific Discovery, Peptide/Protein Design, Lipid-based Nanocarriers (LNCs), Viral Fusion, G-Protein-Coupled Receptors (GPCRs), Membrane Proteins
     - name: Languages
       value: Spanish (Native), English (C1, IELTS 7.5), French (B1), German (A1)
 
