@@ -107,7 +107,7 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 <figure class="text-center">
   <img src="/assets/img/LNCs.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 580px;" 
+       style="width: 100%; max-width: 570px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
