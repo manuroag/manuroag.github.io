@@ -81,10 +81,10 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$green-card-palette-dark2};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$green-color-test};
-  --global-hover-color: #{$green-color-test};
+  --global-theme-color: #{$green-color-test-dark};
+  --global-hover-color: #{$green-color-test-dark};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$code-bg-color-light};
+  --global-footer-bg-color: #{$green-footer-palette-dark2};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
