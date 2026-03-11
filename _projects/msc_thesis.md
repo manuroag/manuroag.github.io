@@ -8,7 +8,7 @@ category: independent
 related_publications: false
 ---
 
-📓 See the [full Thesis here](/assets/pdf/MScThesis_JoseManuelRoblesAguilar.pdf).
+📓 See the [full Thesis here](/assets/pdf/MScThesis_JoseManuelRoblesAguilar_2025.pdf).
 
 ---
 
