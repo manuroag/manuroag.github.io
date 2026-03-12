@@ -116,7 +116,7 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 
 ---
 
-## 🔍 Open to PhD Opportunities!
+### 🔍 Open to PhD Opportunities!
 
 Building on my recent graduate work, I am currently seeking a PhD position in a highly collaborative environment. I am eager to bring my combined expertise in Statistical Physics and Machine Learning to a dynamic research group tackling complex challenges in Computational Biophysics, Protein Science, and AI-driven Scientific Discovery.
 
