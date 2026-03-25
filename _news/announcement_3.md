@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I am attending the [_**AI+Science Summer School 2025**_](https://datascience.uchicago.edu/events/ai-science-summer-school-2025/) at the University of Chicago John W. Boyer Center in Paris, France! 🥐💻📊
+I'm attending the [_**AI+Science Summer School 2025**_](https://datascience.uchicago.edu/events/ai-science-summer-school-2025/) at the University of Chicago John W. Boyer Center in Paris, France! 🥐💻📊

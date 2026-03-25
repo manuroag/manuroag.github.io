@@ -6,4 +6,4 @@ inline: True
 related_posts: false
 ---
 
-I will be starting my PhD at the [_**Computational Biophysics group**_](https://biophys.uni-saarland.de/) at [Saarland University](https://www.uni-saarland.de/), in Germany. I am very excited about this opportunity! 🥲💻🧬
+I will be starting my PhD at the [_**Computational Biophysics Group**_](https://biophys.uni-saarland.de/) at [Saarland University](https://www.uni-saarland.de/), in Germany. I am very excited about this opportunity! 🥲💻🧬
