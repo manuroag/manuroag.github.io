@@ -55,7 +55,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 670px;" 
+       style="width: 100%; max-width: 650px;" 
        alt="KCD AI Model">
 </figure>
 <div class="caption">
@@ -69,7 +69,7 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 600px;" 
+       style="width: 100%; max-width: 580px;" 
        alt="Human H2 Receptor">
 </figure>
 <div class="caption">
@@ -83,7 +83,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 640px;" 
+       style="width: 100%; max-width: 620px;" 
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
@@ -97,7 +97,7 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 720px;" 
+       style="width: 100%; max-width: 700px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
@@ -107,7 +107,7 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 <figure class="text-center">
   <img src="/assets/img/LNCs.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 570px;" 
+       style="width: 100%; max-width: 550px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
