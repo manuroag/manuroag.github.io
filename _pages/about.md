@@ -114,12 +114,4 @@ Having developed a special interest in membrane dynamics, I am actively explorin
     <strong>Fig. 5. Structure of lipid nanoparticle and liposome.</strong> [Credit: <a href='https://pubs.acs.org/doi/full/10.1021/acs.molpharmaceut.4c00744'>Paloncýová, M. et al.</a>]
 </div>
 
----
-
-### 🔍 Open to PhD Opportunities!
-
-Building on my recent graduate work, I am currently seeking a PhD position in a highly collaborative environment. I am eager to bring my combined expertise in Statistical Physics and Machine Learning to a dynamic research group tackling complex challenges in Computational Biophysics, Protein Science, and AI-driven Scientific Discovery.
-
-If you are looking for a dedicated PhD student, please see my [CV](/assets/pdf/CV_JoseManuelRoblesAguilar_Mar2026.pdf) for more details on my projects and academic journey, or reach out via [email](mailto:jose.robles@cinvestav.mx). I would love to discuss how my skills align with your lab’s research
-
----  
+--- 
