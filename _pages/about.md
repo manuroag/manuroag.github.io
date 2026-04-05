@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/)
+subtitle: PhD Student in Computational Biophysics at <a href='https://www.uni-saarland.de/'>Universität des Saarlandes</a>
 
 profile:
   align: right
