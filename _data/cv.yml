@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: José Manuel Robles Aguilar
-    - name: Title
-      value: M.Sc. in Statistical Physics
+    - name: Position
+      value: PhD Student in Computational Biophysics
     - name: Institution
-      value: Department of Physics, Cinvestav
+      value: Universität des Saarlandes
     - name: email
       value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
     - name: Research Interests
