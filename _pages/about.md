@@ -21,26 +21,26 @@ social: true # includes social icons at the bottom of the page
 
 I am a recent graduate of the M.Sc. in Statistical Physics program at [Cinvestav](https://cinvestav.mx/) in Mexico City, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
 
-My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Statistical Physics, with a focus on developing computational tools for biological applications.
+My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
 
 <div class="row justify-content-center text-center mt-3 mb-3 align-items-center">
   <div class="col-auto">
-    <img src="/assets/img/physics-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 70px;">
-    <p class="mt-1 small"><strong>Physics</strong></p>
+    <img src="/assets/img/biophysics-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 70px;">
+    <p class="mt-1 small"><strong>Biophysics</strong></p>
   </div>
   <div class="col-auto">
     <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/ai-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
-    <p class="mt-1 small"><strong>AI</strong></p>
+    <img src="/assets/img/ai2-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
+    <p class="mt-1 small"><strong>Artificial Intelligence</strong></p>
   </div>
   <div class="col-auto">
     <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/biology-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
-    <p class="mt-1 small"><strong>Biology</strong></p>
+    <img src="/assets/img/medicine-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
+    <p class="mt-1 small"><strong>Medicine</strong></p>
   </div>
 </div>
 
