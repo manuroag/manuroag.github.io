@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.Sc. in Statistical Physics | Artificial Intelligence | Computational Biophysics
+subtitle: PhD Student in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/)
 
 profile:
   align: right
@@ -92,7 +92,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 
 ##### Viral Fusion and Lipid-based Nanocarriers
 
-Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion (**fig. 4**), and Lipid-based Nanocarriers (LNCs) (**fig. 5**), which will form the primary focus of my upcoming projects.
+Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Proteins, Viral Fusion (**fig. 4**), and Lipid-based Nanocarriers (LNCs) (**fig. 5**), which will form the primary focus of my upcoming research as a PhD Student.
 
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
