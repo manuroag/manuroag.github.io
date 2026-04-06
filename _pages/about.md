@@ -25,21 +25,21 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
 
 <div class="row justify-content-center text-center mt-3 mb-4 align-items-center">
   <div class="col-auto">
-    <img src="/assets/img/biophysics2-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 65px;">
+    <img src="/assets/img/biophysics2-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 60px;">
     <p class="mt-1 small"><strong>Biophysics</strong></p>
   </div>
   <div class="col-auto">
     <h4 class="text-muted mx-2 my-0">+</h4>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/ai2-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 65px;">
+    <img src="/assets/img/ai2-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 60px;">
     <p class="mt-1 small"><strong>Artificial Intelligence</strong></p>
   </div>
   <div class="col-auto">
     <h4 class="text-muted mx-2 my-0">+</h4>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/medicine2-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 65px;">
+    <img src="/assets/img/medicine2-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 60px;">
     <p class="mt-1 small"><strong>Medicine</strong></p>
   </div>
 </div>
@@ -53,7 +53,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 630px;" 
+       style="width: 100%; max-width: 600px;" 
        alt="KCD AI Model">
 </figure>
 <div class="caption">
@@ -81,7 +81,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 600px;" 
+       style="width: 100%; max-width: 580px;" 
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
