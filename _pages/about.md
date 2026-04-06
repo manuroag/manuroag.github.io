@@ -44,7 +44,6 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
   </div>
 </div>
 
-
 ## Research
 
 #### AI-driven CD Spectra Prediction
