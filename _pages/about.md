@@ -25,21 +25,21 @@ My research sits at the exciting intersection of Artificial Intelligence, Machin
 
 <div class="row justify-content-center text-center mt-3 mb-3 align-items-center">
   <div class="col-auto">
-    <img src="/assets/img/biophysics2-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 70px;">
+    <img src="/assets/img/biophysics2-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 65px;">
     <p class="mt-1 small"><strong>Biophysics</strong></p>
   </div>
   <div class="col-auto">
     <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/ai2-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 70px;">
+    <img src="/assets/img/ai2-icon.png" alt="AI" class="img-fluid rounded" style="max-width: 65px;">
     <p class="mt-1 small"><strong>Artificial Intelligence</strong></p>
   </div>
   <div class="col-auto">
     <h5 class="text-muted mx-2 my-0">+</h5>
   </div>
   <div class="col-auto">
-    <img src="/assets/img/medicine2-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 70px;">
+    <img src="/assets/img/medicine2-icon.png" alt="Biology" class="img-fluid rounded" style="max-width: 65px;">
     <p class="mt-1 small"><strong>Medicine</strong></p>
   </div>
 </div>
@@ -105,7 +105,7 @@ Having developed a special interest in membrane dynamics, I am actively explorin
 <figure class="text-center">
   <img src="/assets/img/LNCs.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 500px;" 
+       style="width: 100%; max-width: 470px;" 
        alt="Viral Fusion">
 </figure>
 <div class="caption">
