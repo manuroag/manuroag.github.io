@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: about
 title: home
 permalink: /
 subtitle: PhD Student in Computational Biophysics at Universität des Saarlandes
