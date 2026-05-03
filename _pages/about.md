@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: PhD Student in Computational Biophysics at Universität des Saarlandes
+subtitle: PhD Student in Computational Biophysics | AI | Biological Membranes | Protein Science
 
 profile:
   align: right
@@ -44,7 +44,9 @@ Overall, my work sits at the intersection of Artificial Intelligence, Machine Le
   </div>
 </div>
 
-I am always open to collaborating or just meeting new people (both in and outside of science). If you would like to connect, feel free to reach out via email! 😄
+I am always open to collaborating or just meeting new people (both in and outside of science). If you would like to connect, feel free to reach out via email! 👋😃
+
+---
 
 # Research
 
