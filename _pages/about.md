@@ -19,9 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a recent graduate of the M.Sc. in Statistical Physics program at [Cinvestav](https://cinvestav.mx/) in Mexico City, deeply passionate about bridging theoretical physics with cutting-edge computational methods to solve problems in biophysics and protein science.
+I am a PhD Student in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/), in Germany. I do Molecular Dynamics simulations to investigate Membrane Fusion. I did a MSc in Statistical Physics at [Cinvestav](https://cinvestav.mx/) in Mexico City, where I worked with Artificial Intelligence and Circular Dichroism Spectra Prediction.
 
-My research sits at the exciting intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
+Overall, my research sits at the intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
 
 <div class="row justify-content-center text-center mt-3 mb-4 align-items-center">
   <div class="col-auto">
