@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>PhD Student</p>
     <p>Universität des Saarlandes</p>
-    <p>Saarbrücken, Saarland, Germany</p>
+#    <p>Saarbrücken, Saarland, Germany</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
