@@ -44,7 +44,7 @@ Overall, my work sits at the intersection of Artificial Intelligence, Machine Le
   </div>
 </div>
 
-I am always open to collaborating or just meeting new people (both in and outside of science). If you would like to connect, feel free to reach out via email! 👋😃:
+I am always open to collaborating or just meeting new people (both in and outside of science). If you would like to connect, feel free to reach out via email! 👋😃
 
 ---
 
