@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany, where I use Molecular Dynamics simulations to investigate membrane fusion. I hold an MSc in Statistical Physics from [Cinvestav](https://cinvestav.mx/) in Mexico City, where my research focused on Artificial Intelligence and Circular Dichroism spectra prediction.
+I am a PhD Student in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany, where I use Molecular Dynamics simulations to investigate membrane fusion. I hold an MSc in Statistical Physics from [Cinvestav](https://cinvestav.mx/) in Mexico, where my research focused on Artificial Intelligence and Circular Dichroism spectra prediction.
 
 Overall, my work sits at the intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
 
