@@ -14,9 +14,7 @@ related_publications: false
 
 ## What is Circular Dichroism (CD)?
 
-An important property of the amino acids that compose proteins is chirality. A molecule is chiral when it is not superimposable on its mirror image (**Fig. 1**). Chirality in amino acids arises from the presence of an asymmetric carbon, a carbon atom tetrahedrally bonded to four different atoms or groups. Glycine, which has a hydrogen atom as its side chain, is the only achiral amino acid.
-
-Chiral structures can be distinguished and characterized by Circular Dichroism (CD) spectroscopy, a technique based on measuring the differential absorption of left- and right-circularly polarized light. For proteins, CD occurs in the near and far ultraviolet (UV) wavelength ranges, where the amide and carbonyl groups of the polypeptide backbone absorb light.
+An important property of the amino acids that compose proteins is chirality. A molecule is chiral when it is not superimposable on its mirror image (**Fig. 1**). Chiral structures can be distinguished and characterized by Circular Dichroism (CD) spectroscopy, a technique based on measuring the differential absorption of left- and right-circularly polarized light. For proteins, CD occurs in the near and far ultraviolet (UV) wavelength ranges, where the amide and carbonyl groups of the polypeptide backbone absorb light.
 
 Circular Dichroism (CD) spectroscopy is a versatile and rapid method for characterizing the secondary structure (**Fig. 1**), conformation, and folding of proteins. While not a high-resolution technique, it is invaluable for analyzing protein-ligand interactions, validating computationally predicted structures, and assessing the effects of mutations.
 
