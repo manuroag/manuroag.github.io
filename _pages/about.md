@@ -23,7 +23,7 @@ I am a PhD Student in Computational Biophysics at [Universität des Saarlandes](
 
 Overall, my work sits at the intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
 
-<div class="row justify-content-center text-center mt-4 mb-4 align-items-center">
+<div class="row justify-content-center text-center mt-4 mb-3 align-items-center">
   <div class="col-auto">
     <img src="/assets/img/biophysics2-icon.png" alt="Physics" class="img-fluid rounded" style="max-width: 65px;">
     <p class="mt-1 small"><strong>Biophysics</strong></p>
@@ -48,7 +48,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 ---
 
-## Research
+# Research
 
 #### • AI-driven CD Spectra Prediction
 
