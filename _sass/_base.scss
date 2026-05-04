@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 html {
-  font-size: 18px; /* The default is 16px. Increase or decrease this number until it feels right. */
+  font-size: 17px; /* The default is 16px. */
 }
 
 // Typography
@@ -21,7 +21,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
 }
 
 hr {
