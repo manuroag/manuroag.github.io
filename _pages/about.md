@@ -52,7 +52,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 #### Free Energy Calculations & Membrane Fusion
 
-Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Fusion (**fig. 1**) and Free Energy Calculations, which will form the primary focus of my upcoming research as a PhD Student at the [Computational Biophysics Group](https://biophys.uni-saarland.de/)
+Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Fusion (**fig. 1**) and Free Energy Calculations, which will form the primary focus of my upcoming research as a PhD Student at the [Computational Biophysics Group](https://biophys.uni-saarland.de/).
 
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
@@ -61,7 +61,7 @@ Having developed a special interest in membrane dynamics, I am actively explorin
        alt="Viral Fusion">
 </figure>
 <div class="caption">
-    <strong>Fig. 1. Illustration of the viral fusion event.</strong> [Credit: <a href='https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.689006/full'>Lozada, C. et al.</a>]
+    <strong>Fig. 1. Illustration of a viral fusion event.</strong> [Credit: <a href='https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.689006/full'>Lozada, C. et al.</a>]
 </div>
 
 #### AI-driven CD Spectra Prediction
