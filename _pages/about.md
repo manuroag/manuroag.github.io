@@ -50,51 +50,9 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 # Research
 
-#### AI-driven CD Spectra Prediction
+#### Free Energy Calculations & Membrane Fusion
 
-My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
-
-<figure class="text-center">
-  <img src="/assets/img/KCD_AI.png" 
-       class="img-fluid rounded"
-       style="width: 100%; max-width: 550px;" 
-       alt="KCD AI Model">
-</figure>
-<div class="caption">
-    <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
-</div>
-
-#### G-Protein-Coupled Receptors (GPCRs)
-
-I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 2**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
-
-<figure class="text-center">
-  <img src="/assets/img/hH2R.png" 
-       class="img-fluid rounded"
-       style="width: 100%; max-width: 510px;" 
-       alt="Human H2 Receptor">
-</figure>
-<div class="caption">
-    <strong>Fig. 2. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
-</div>
-
-#### AI-driven Drug Discovery
-
-Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 3**), and exploring literature on Peptide/Protein Design.
-
-<figure class="text-center">
-  <img src="/assets/img/GCN.png" 
-       class="img-fluid rounded"
-       style="width: 100%; max-width: 530px;" 
-       alt="Graph Convolutional Network">
-</figure>
-<div class="caption">
-    <strong>Fig. 3. Illustration of the graph convolutional network.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
-</div>
-
-#### Membrane Fusion and Lipid-based Nanocarriers
-
-Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Fusion (**fig. 4**) and Lipid-based Nanocarriers (LNCs) (**fig. 5**), which will form the primary focus of my upcoming research as a PhD Student.
+Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Fusion (**fig. 1**) and Free Energy Calculations, which will form the primary focus of my upcoming research as a PhD Student at the [Computational Biophysics Group](https://biophys.uni-saarland.de/).
 
 <figure class="text-center">
   <img src="/assets/img/viral_fusion.jpg" 
@@ -103,17 +61,49 @@ Having developed a special interest in membrane dynamics, I am actively explorin
        alt="Viral Fusion">
 </figure>
 <div class="caption">
-    <strong>Fig. 4. Illustration of the viral fusion event.</strong> [Credit: <a href='https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.689006/full'>Lozada, C. et al.</a>]
+    <strong>Fig. 1. Illustration of the viral fusion event.</strong> [Credit: <a href='https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.689006/full'>Lozada, C. et al.</a>]
 </div>
 
+#### AI-driven CD Spectra Prediction
+
+My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 2**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
+
 <figure class="text-center">
-  <img src="/assets/img/LNCs.png" 
+  <img src="/assets/img/KCD_AI.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 420px;" 
-       alt="Viral Fusion">
+       style="width: 100%; max-width: 550px;" 
+       alt="KCD AI Model">
 </figure>
 <div class="caption">
-    <strong>Fig. 5. Structure of lipid nanoparticle and liposome.</strong> [Credit: <a href='https://pubs.acs.org/doi/full/10.1021/acs.molpharmaceut.4c00744'>Paloncýová, M. et al.</a>]
+    <strong>Fig. 2. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
+</div>
+
+#### G-Protein-Coupled Receptors (GPCRs)
+
+I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 3**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
+
+<figure class="text-center">
+  <img src="/assets/img/hH2R.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 510px;" 
+       alt="Human H2 Receptor">
+</figure>
+<div class="caption">
+    <strong>Fig. 3. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
+</div>
+
+#### AI-driven Drug Discovery
+
+Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 4**), and exploring literature on Peptide/Protein Design.
+
+<figure class="text-center">
+  <img src="/assets/img/GCN.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 530px;" 
+       alt="Graph Convolutional Network">
+</figure>
+<div class="caption">
+    <strong>Fig. 4. Illustration of the graph convolutional network.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
 </div>
 
 --- 
