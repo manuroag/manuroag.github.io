@@ -22,7 +22,8 @@
       year: 2026 - present
       description:
         - title: "Focus: Membrane Fusion"
-        - "Advisor: Prof. Dr. Jochen Hub"
+          contents:
+            - "Advisor: Prof. Dr. Jochen Hub"
     - title: MSc in Physics
       institution: Cinvestav, Mexico City, Mexico
       year: 2023 - 2025
