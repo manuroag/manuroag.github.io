@@ -8,7 +8,7 @@
     - name: Institution
       value: Universität des Saarlandes
     - name: email
-      value: <a href="mailto:{jose.robles@cinvestav.mx}">jose.robles@cinvestav.mx</a>
+      value: <a href="mailto:{jose.aguilar@uni-saarland.de}">jose.aguilar@uni-saarland.de</a>
     - name: Research Interests
       value: Computational Biophysics, Molecular Dynamics (MD), AI-driven Scientific Discovery, Peptide/Protein Design, Lipid-based Nanocarriers (LNCs), Viral Fusion, G-Protein-Coupled Receptors (GPCRs), Membrane Proteins
     - name: Languages
@@ -17,8 +17,15 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD in Computational Biophysics
+      institution: Universität des Saarlandes, Saarland, Germany
+      year: 2026 - present
+      description:
+        - title: "Focus: Membrane Fusion"
+          contents:
+            - "Advisor: Prof. Dr. Jochen Hub"
     - title: MSc in Physics
-      institution: Cinvestav, Department of Physics, Mexico City, MX
+      institution: Cinvestav, Mexico City, Mexico
       year: 2023 - 2025
       description:
         - title: "Thesis: AI-driven Prediction of Circular Dichroism Spectra of Proteins"
@@ -27,7 +34,7 @@
           - "Focus: Integration of Deep Bayesian Neural Networks with the theoretical KCD method"
         - "GPA: 9.1/10"
     - title: BSc in Physics and Mathematics
-      institution: Intituto Politécnico Nacional (IPN)
+      institution: Intituto Politécnico Nacional (IPN), Mexico City, Mexico
       year: 2017 - 2022
       description:
         - "Focus: Stochastic Processes and Materials Science"
