@@ -6,9 +6,9 @@ subtitle:
 
 profile:
   align: right
-  image: IMG-20251013-WA0009(1).jpg
+  image: Profile4.jpg #IMG-20251013-WA0009(1).jpg
   #image: 20241230_163648.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Student</p>
     <p>Universität des Saarlandes</p>
