@@ -50,7 +50,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 # Research
 
-#### Free Energy Calculations & Membrane Fusion
+#### Membrane Fusion Inhibition
 
 Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Fusion (**fig. 1**) and Free Energy Calculations, which will form the primary focus of my upcoming research as a PhD Student at the [Computational Biophysics Group](https://biophys.uni-saarland.de/).
 
