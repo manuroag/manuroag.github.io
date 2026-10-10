@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: ProfilePic.jpeg #IMG-20251013-WA0009(1).jpg
+  image: ProfilePic.jpg #IMG-20251013-WA0009(1).jpg
   #image: 20241230_163648.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
