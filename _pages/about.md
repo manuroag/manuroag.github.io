@@ -6,11 +6,11 @@ subtitle:
 
 profile:
   align: right
-  image: Profile4.jpeg #IMG-20251013-WA0009(1).jpg
+  image: ProfilePic.jpeg #IMG-20251013-WA0009(1).jpg
   #image: 20241230_163648.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Student</p>
+    <p>Research Intern</p>
     <p>Universität des Saarlandes</p>
 #    <p>Saarbrücken, Saarland, Germany</p>
 
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany, where I use Molecular Dynamics simulations to investigate membrane fusion. I hold an MSc in Statistical Physics from [Cinvestav](https://cinvestav.mx/) in Mexico, where my research focused on Artificial Intelligence and Circular Dichroism spectra prediction.
+I am a Research Intern in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany, where I use Molecular Dynamics simulations to investigate membranes. I hold a MSc Degree in Statistical Physics from [Cinvestav](https://cinvestav.mx/) in Mexico, where my research focused on Artificial Intelligence and Circular Dichroism spectra prediction.
 
 Overall, my work sits at the intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
 
@@ -50,23 +50,14 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 # Research
 
-#### Membrane Fusion Inhibition
+#### Molecular Dynamics Simulations of Membranes
 
-Having developed a special interest in membrane dynamics, I am actively exploring literature on Membrane Fusion (**fig. 1**) and Free Energy Calculations, which will form the primary focus of my upcoming research as a PhD Student at the [Computational Biophysics Group](https://biophys.uni-saarland.de/).
+As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane, measuring properties such as densities and order parameters.
 
-<figure class="text-center">
-  <img src="/assets/img/viral_fusion.jpg" 
-       class="img-fluid rounded"
-       style="width: 100%; max-width: 630px;" 
-       alt="Viral Fusion">
-</figure>
-<div class="caption">
-    <strong>Fig. 1. Illustration of a viral fusion event.</strong> [Credit: <a href='https://www.frontiersin.org/journals/chemistry/articles/10.3389/fchem.2021.689006/full'>Lozada, C. et al.</a>]
-</div>
 
 #### AI-driven CD Spectra Prediction
 
-My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 2**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
+My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -75,12 +66,12 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
        alt="KCD AI Model">
 </figure>
 <div class="caption">
-    <strong>Fig. 2. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
+    <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
 
 #### G-Protein-Coupled Receptors (GPCRs)
 
-I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 3**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
+I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 2**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
 
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 
@@ -89,12 +80,12 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 
        alt="Human H2 Receptor">
 </figure>
 <div class="caption">
-    <strong>Fig. 3. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
+    <strong>Fig. 2. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
 </div>
 
 #### AI-driven Drug Discovery
 
-Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 4**), and exploring literature on Peptide/Protein Design.
+Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 3**) to keep up with the aplications of AI to Science.
 
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
@@ -103,7 +94,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
-    <strong>Fig. 4. Illustration of the graph convolutional network.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
+    <strong>Fig. 3. Illustration of the graph convolutional network.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
 </div>
 
 --- 
