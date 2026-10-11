@@ -48,7 +48,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 ---
 
-# Research
+# Projects
 
 #### Molecular Dynamics Simulations of Membranes
 
