@@ -4,7 +4,7 @@
     - name: Full Name
       value: José Manuel Robles Aguilar
     - name: Position
-      value: PhD Student in Computational Biophysics
+      value: Research Intern in Computational Biophysics
     - name: Institution
       value: Universität des Saarlandes
     - name: email
@@ -17,13 +17,6 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computational Biophysics
-      institution: Universität des Saarlandes, Saarland, Germany
-      year: 2026 - present
-      description:
-        - title: "Focus: Membrane Fusion"
-          contents:
-            - "Advisor: Prof. Dr. Jochen Hub"
     - title: MSc in Physics
       institution: Cinvestav, Mexico City, Mexico
       year: 2023 - 2025
@@ -43,6 +36,9 @@
 - title: Research Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: Universität des Saarlandes, Saarbrücken, DE
+      year: 2026
     - title: Graduate Researcher
       institution: Cinvestav, Mexico City, MX
       year: 2023 - 2025
