@@ -57,7 +57,7 @@ As part of my internship at the [Computational Biophysics Group](https://biophys
 <figure class="text-center">
   <img src="/assets/img/cf2642_20.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 350px;" 
+       style="width: 100%; max-width: 400px;" 
        alt="Membrane">
 </figure>
 <div class="caption">
