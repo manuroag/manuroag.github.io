@@ -52,12 +52,21 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 #### Molecular Dynamics Simulations of Membranes
 
-As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane, measuring properties such as densities and order parameters.
+As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane (**fig. 1**), measuring properties such as densities and order parameters.
 
+<figure class="text-center">
+  <img src="/assets/img/cf2642_20.png" 
+       class="img-fluid rounded"
+       style="width: 100%; max-width: 550px;" 
+       alt="Membrane">
+</figure>
+<div class="caption">
+    <strong>Fig. 1. POPC membrane with Ligand.</strong> This system is composed of a 20%Mol concentration of the drug.
+</div>
 
 #### AI-driven CD Spectra Prediction
 
-My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 1**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
+My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on enhancing the [KCD method](https://doi.org/10.1002/pro.4967)'s predictive capabilities for protein Circular Dichroism (CD) spectra (**fig. 2**). By designing and training deep Bayesian Neural Networks (BNNs), I achieved a 40% improvement in prediction accuracy compared to the original model.
 
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
@@ -66,12 +75,12 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
        alt="KCD AI Model">
 </figure>
 <div class="caption">
-    <strong>Fig. 1. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
+    <strong>Fig. 2. KCD-AI workflow.</strong> Four Bayesian Neural Networks were integrated into the KCD model to increase the accuracy in CD spectra predictions.
 </div>
 
 #### G-Protein-Coupled Receptors (GPCRs)
 
-I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 2**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
+I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 3**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
 
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 
@@ -80,12 +89,12 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 
        alt="Human H2 Receptor">
 </figure>
 <div class="caption">
-    <strong>Fig. 2. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
+    <strong>Fig. 3. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
 </div>
 
 #### AI-driven Drug Discovery
 
-Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 3**) to keep up with the aplications of AI to Science.
+Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projects/drug_hunter/)," an independent project focused on predicting drug-protein binding affinity using Graph Convolutional Networks (GCNs) (**fig. 4**) to keep up with the aplications of AI to Science.
 
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
@@ -94,7 +103,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
-    <strong>Fig. 3. Illustration of the graph convolutional network.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
+    <strong>Fig. 4. Illustration of the graph convolutional network.</strong> [Modified from: <a href='https://onlinelibrary.wiley.com/doi/abs/10.1002/bkcs.11730'>Cho, H. & Choi, I.</a>]
 </div>
 
 --- 
