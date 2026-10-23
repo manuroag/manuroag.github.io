@@ -57,7 +57,7 @@ As part of my internship at the [Computational Biophysics Group](https://biophys
 <figure class="text-center">
   <img src="/assets/img/cf2642.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 500px;" 
+       style="width: 100%; max-width: 540px;" 
        alt="Membrane">
 </figure>
 <div class="caption">
@@ -71,7 +71,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 550px;" 
+       style="width: 100%; max-width: 570px;" 
        alt="KCD AI Model">
 </figure>
 <div class="caption">
@@ -85,7 +85,7 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 510px;" 
+       style="width: 100%; max-width: 530px;" 
        alt="Human H2 Receptor">
 </figure>
 <div class="caption">
@@ -99,7 +99,7 @@ Alongside this, I am developing "[Drug Hunter](https://manuroag.github.io/projec
 <figure class="text-center">
   <img src="/assets/img/GCN.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 530px;" 
+       style="width: 100%; max-width: 540px;" 
        alt="Graph Convolutional Network">
 </figure>
 <div class="caption">
