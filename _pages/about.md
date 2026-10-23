@@ -55,13 +55,13 @@ I am always open to collaborating or just meeting new people (both in and outsid
 As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane (**fig. 1**), measuring properties such as densities and order parameters.
 
 <figure class="text-center">
-  <img src="/assets/img/cf2642_20.png" 
+  <img src="/assets/img/cf2642.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 400px;" 
+       style="width: 100%; max-width: 500px;" 
        alt="Membrane">
 </figure>
 <div class="caption">
-    <strong>Fig. 1. POPC membrane with Ligand.</strong> This system is composed of a 20%Mol concentration of a drug (in yellow) inside a POPC membrane.
+    <strong>Fig. 1. All-atom simulations of POPC membranes with a 20%Mol concentration of a ligand.</strong> <strong>A</strong> Simulation made with AMBER LIPID21 and OpenFF. <strong>B</strong> Simulation made with CHARMM36 and CGenFF.
 </div>
 
 #### AI-driven CD Spectra Prediction
