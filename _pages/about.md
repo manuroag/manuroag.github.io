@@ -71,7 +71,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
 <figure class="text-center">
   <img src="/assets/img/KCD_AI.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 570px;" 
+       style="width: 100%; max-width: 560px;" 
        alt="KCD AI Model">
 </figure>
 <div class="caption">
