@@ -6,4 +6,4 @@ inline: True
 related_posts: false
 ---
 
-I joined the [_**Computational Biophysics Group**_](https://biophys.uni-saarland.de/) at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany as a PhD Student. I am very excited about this new chapter of my life! 🥲🎉🧬💻
+I joined the [_**Computational Biophysics Group**_](https://biophys.uni-saarland.de/) at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany as a Research Intern! 🧬💻
