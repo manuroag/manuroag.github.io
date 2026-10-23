@@ -52,7 +52,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 #### Molecular Dynamics Simulations of Membranes
 
-As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane (**fig. 1**), measuring properties such as densities and order parameters.
+As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane (**fig. 1**), measuring properties such as density profiles and order parameters.
 
 <figure class="text-center">
   <img src="/assets/img/cf2642.png" 
