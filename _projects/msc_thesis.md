@@ -4,7 +4,7 @@ title: "AI-driven Prediction of Circular Dichroism Spectra of Proteins"
 description: My M.Sc. Thesis Overview.
 img: assets/img/thesis.png
 importance: 2
-category: independent
+category: work
 related_publications: false
 ---
 
