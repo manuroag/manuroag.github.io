@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Intern in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany, where I use Molecular Dynamics simulations to investigate membranes. I hold a MSc Degree in Statistical Physics from [Cinvestav](https://cinvestav.mx/) in Mexico, where my research focused on Artificial Intelligence and Circular Dichroism spectra prediction.
+I am a Research Intern in Computational Biophysics at [Universität des Saarlandes](https://www.uni-saarland.de/) in Germany, where I leverage high-performance computing and molecular dynamics simulations to investigate how small-molecule drugs interact with lipid bilayers to inhibit membrane fusion. I hold a MSc Degree in Statistical Physics from [Cinvestav](https://cinvestav.mx/) in Mexico, where my research focused on Artificial Intelligence and Circular Dichroism spectra prediction.
 
 Overall, my work sits at the intersection of Artificial Intelligence, Machine Learning, and Biophysics, with a focus on developing computational tools for biological and medical applications.
 
@@ -52,7 +52,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 #### Molecular Dynamics Simulations of Membranes
 
-At the [Computational Biophysics Group](https://biophys.uni-saarland.de/) at [Saarland University](https://www.uni-saarland.de/start.html), I am applying all-atom Molecular Dynamics to study lipid membrane mechanics. My current research focuses on how the antiviral compound Cf2642 interacts with POPC bilayers (**fig. 1**) to inhibit membrane fusion. Leveraging the Smaug HPC cluster, I use GROMACS and custom Python pipelines to analyze membrane density and order parameters, bridging the gap between theoretical statistical physics and experimental biophysics.
+At the [Computational Biophysics Group](https://biophys.uni-saarland.de/) at [Saarland University](https://www.uni-saarland.de/start.html), I am applying all-atom Molecular Dynamics to study lipid membrane mechanics. My current research focuses on how the antiviral compound Cf2642 interacts with POPC bilayers (**fig. 1**) to inhibit membrane fusion. Leveraging the Smaug HPC cluster, I use GROMACS and custom Python pipelines to analyze membrane density profiles and order parameters.
 
 <figure class="text-center">
   <img src="/assets/img/cf2642.png" 
