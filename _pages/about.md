@@ -52,7 +52,7 @@ I am always open to collaborating or just meeting new people (both in and outsid
 
 #### Molecular Dynamics Simulations of Membranes
 
-As part of my internship at the [Computational Biophysics Group](https://biophys.uni-saarland.de/) I am learning about membrane biophysics and performing all-atom Molecular Dynamics Simulations of different concentrations of a Ligand inside a Membrane (**fig. 1**), measuring properties such as density profiles and order parameters.
+At the [Computational Biophysics Group](https://biophys.uni-saarland.de/) at [Saarland University](https://www.uni-saarland.de/start.html), I am applying all-atom Molecular Dynamics to study lipid membrane mechanics. My current research focuses on how the antiviral compound Cf2642 interacts with POPC bilayers (**fig. 1**) to inhibit membrane fusion. Leveraging the Smaug HPC cluster, I use GROMACS and custom Python pipelines to analyze membrane density and order parameters, bridging the gap between theoretical statistical physics and experimental biophysics.
 
 <figure class="text-center">
   <img src="/assets/img/cf2642.png" 
@@ -61,7 +61,7 @@ As part of my internship at the [Computational Biophysics Group](https://biophys
        alt="Membrane">
 </figure>
 <div class="caption">
-    <strong>Fig. 1. All-atom simulations of POPC membranes with a 20%Mol concentration of a ligand.</strong> <strong>A</strong> Simulation made with AMBER LIPID21 and OpenFF. <strong>B</strong> Simulation made with CHARMM36 and CGenFF.
+    <strong>Fig. 1. All-atom Molecular Dynamics simulations of POPC bilayers with a 20 mol% drug concentration, comparing modern force field parameterizations.</strong> <strong>(A)</strong> Simulation parameterized using AMBER LIPID21 for lipids and OpenFF for the ligand. <strong>(B)</strong> Simulation parameterized using CHARMM36 for lipids and CGenFF for the ligand.
 </div>
 
 #### AI-driven CD Spectra Prediction
@@ -89,7 +89,7 @@ I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 
        alt="Human H2 Receptor">
 </figure>
 <div class="caption">
-    <strong>Fig. 3. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>a</strong> Cryo-EM density map. <strong>b</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
+    <strong>Fig. 3. Cryo-EM structure of the histamine-bound H2R-Gs/Nb35/ND complex.</strong> <strong>(a)</strong> Cryo-EM density map. <strong>(b)</strong> Ribbon model. [Credit: <a href='https://www.nature.com/articles/s41467-024-46096-z'>Köck, Z. et al.</a>]
 </div>
 
 #### AI-driven Drug Discovery
