@@ -5,7 +5,7 @@ permalink: /projects/
 description: I am currently organizing my portfolio—please check back soon for new updates! 🧬📊
 nav: true
 nav_order: 1
-display_categories: [work, independent]
+display_categories: [Research, Learning Projects]
 horizontal: false
 ---
 

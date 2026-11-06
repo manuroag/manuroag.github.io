@@ -80,7 +80,7 @@ My [Master's thesis](https://manuroag.github.io/projects/msc_thesis/) focused on
 
 #### G-Protein-Coupled Receptors (GPCRs)
 
-I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 3**) using Molecular Dynamics (MD) simulations, in collaboration with Miroslava Carrasco from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
+I am currently investigating a mutation in the human H2 receptor (hH2R) (**fig. 3**) using Molecular Dynamics (MD) simulations, in collaboration with [Miroslava Carrasco](https://www.linkedin.com/in/miroslava-carrasco-meza-a97a6427a/) from the [Department of Physiology, Biophysics and Neuroscience at Cinvestav](https://www.fisio.cinvestav.mx/).
 
 <figure class="text-center">
   <img src="/assets/img/hH2R.png" 

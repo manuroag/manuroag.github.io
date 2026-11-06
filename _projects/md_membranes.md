@@ -4,7 +4,7 @@ title: Membrane Biophysics
 description: Investigating the effect of Cf2642 ddBCNA on Membranes.
 img: assets/img/20_cf2642_CHARMM36.png
 importance: 1
-category: work
+category: Research
 related_publications: false
 ---
 
