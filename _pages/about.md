@@ -57,7 +57,7 @@ At the [Computational Biophysics Group](https://biophys.uni-saarland.de/) at [Sa
 <figure class="text-center">
   <img src="/assets/img/cf2642_20.png" 
        class="img-fluid rounded"
-       style="width: 100%; max-width: 540px;" 
+       style="width: 100%; max-width: 560px;" 
        alt="Membrane">
 </figure>
 <div class="caption">
